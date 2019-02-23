@@ -1,0 +1,48 @@
+scheme: Gemini
+github_banner: https://github.com/pichuang || Follow me on GitHub
+highlight_theme: night bright
+
+# https://fontawesome.com
+social:
+  Github: https://github.com/pichuang || github
+  FB Page: https://www.facebook.com/paulintoro || facebook
+  Speakerdeck: https://speakerdeck.com/pichuang || slideshare
+  Linkedin: https://tw.linkedin.com/in/phil-huang-09b09895 || linkedin
+
+social_icons:
+  enable: true
+  icons_only: true
+  transition: true
+
+toc:
+  enable: true
+  number: true
+  wrap: true
+
+footer:
+  since: 2014
+
+menu:
+  who: /about || info-circle
+  record: /record || microphone
+
+menu_settings:
+  icons: true
+  badges: true
+
+site_state: true
+
+font:
+  enable: true
+
+  # Global font settings used for all elements in <body>.
+  global:
+    external: true
+    family: Overpass
+    size:
+
+  # Font settings for <code> and code blocks.
+  codes:
+    external: true
+    family: Overpass Mono
+    size:
