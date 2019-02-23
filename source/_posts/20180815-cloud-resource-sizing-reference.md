@@ -1,13 +1,13 @@
----
 layout: post
 title: 雲端大廠們的 VM 資源配置參考
-date: 2018-08-15 23:55:09
-udpated: 2018-08-15 23:55:09
 tags:
-- cloud
-- azure
-- aws
-- gcp
+  - cloud
+  - azure
+  - aws
+  - gcp
+categories: []
+date: 2018-08-15 23:55:00
+udpated: 2018-08-15 23:55:09
 ---
 
 

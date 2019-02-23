@@ -1,10 +1,9 @@
----
 layout: page
 title: Who is Phil Huang
 date: 2019-02-23 23:22:34
 ---
-
 > 一名熱愛分享及交流有限所知的自宅工程師。
+
 
 * 長期關注 OpenSource、SDN/NFV、CNCF、Red Hat Community 和 Commercial Solutions
 * 現任職於 Red Hat Solution Architect
