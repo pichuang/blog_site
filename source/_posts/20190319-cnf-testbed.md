@@ -9,6 +9,8 @@ udpated: 2019-03-07 22:04:12
 
 2019/2/24 CNCF [宣布發展 CNF Testbed][1]，計畫主要針對在 ONAP (Open Network Automation Platform) 上的 VNF (Virtual Network Function) 及發展中的 CNF (Cloud native Network Function) 進行雙方的功能測試，相互比較優劣勢及性能彈性
 
+<!--more-->
+
 Dataplane 則統一都是用 FD.io VPP (Vector Packet Processing) 技術來做到，至於為什麼可以參考一下 [Why This Was a Challenging Project: OpenStack][6] 及 [Why This Was a Challenging Project: Kubernetes][7] 兩張簡報的底下說明
 
 
