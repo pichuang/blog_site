@@ -1,0 +1,20 @@
+layout: draft
+title: Red Hat Ansible 和 HashiCorp Terraform 各自定位
+author: Phil Huang
+tags: []
+categories: []
+date: 2019-03-19 17:50:00
+---
+[HashiCorp Terraform][2] 及 [Red Hat Ansible][3] 是目前 DevOps Tool常見的
+
+
+
+## References
+- [Overview - HashiCorp Terraform and Red Hat Ansible Automation][1]
+- [HashiCorp Terraform][2]
+- [Red Hat Automation for everyone][3]
+
+
+[1]: https://www.redhat.com/en/resources/hashicorp-terraform-ansible-infrastructure-as-code-overview
+[2]: https://www.terraform.io/
+[3]: https://www.ansible.com/
