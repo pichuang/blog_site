@@ -4,8 +4,10 @@ title: 進擊的 OpenAPI!!!
 date: 2018-07-23 00:01:26
 udpated: 2018-07-23 00:01:26
 tags:
-- oas
-- openapi
+  - oas
+  - openapi
+categories:
+  - openapi
 ---
 
 ## OpenAPI Specification, OAS

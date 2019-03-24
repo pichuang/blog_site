@@ -4,8 +4,8 @@ title: NetDevOps 風格之網路設備連接方式
 date: 2018-08-05 23:57:15
 udpated: 2018-08-05 23:57:15
 tags:
-- netdevops
-- ansible
+  - netdevops
+  - ansible
 categories:
   - ansible
 ---

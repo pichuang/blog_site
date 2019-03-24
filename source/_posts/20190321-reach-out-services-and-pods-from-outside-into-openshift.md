@@ -7,7 +7,8 @@ tags:
   - router
   - services
   - pods
-categories: []
+categories:
+  - openshift
 date: 2019-03-21 14:16:00
 ---
 Red Hat OpenShift v3.11 架構裡網路主要分為三大塊:

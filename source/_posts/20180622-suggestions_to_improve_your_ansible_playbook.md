@@ -5,9 +5,11 @@ description: ""
 date: 2018-06-22 00:00:00 +0800
 updated: 2018-06-22 00:00:00 +0800
 tags:
-- automation
-- ansible
-- iac
+  - automation
+  - ansible
+  - iac
+categories:
+  - ansible
 ---
 
 # 前言
