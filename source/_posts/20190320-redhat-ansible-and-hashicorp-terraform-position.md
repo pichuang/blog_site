@@ -2,9 +2,11 @@ layout: post
 title: Red Hat Ansible 和 HashiCorp Terraform 結合作法
 author: Phil Huang
 tags:
+  - redhat
   - terraform
   - ansible
-categories: []
+categories:
+  - ansible
 date: 2019-03-20 02:03:00
 ---
 雖然 Terraform 及 Ansible 都是非常知名的 IaC (Infrastructure as Code) 的工具，但經常會被拉出來討論說這兩者的差異，所以經歷了一陣奮鬥(?)，Red Hat 及 HashiCorp 發出聯合聲明 [HashiCorp Terraform and Red Hat Ansible Automation][1]

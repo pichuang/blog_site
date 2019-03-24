@@ -3,6 +3,10 @@ title: Red Hat OpenShift and VMWare NSX-T 架構點評
 date: 2019-03-17 20:40:52
 udpated: 2019-03-17 20:40:52
 tags:
+- openshift
+- nsx-t
+categories:
+  - openshift
 ---
 
 最近 VMWare NSX-T 出了一篇跟 Red Hat OpenShift 3.11 的[整合文章][1]及[影片][2]，下圖的整體技術架構上是十分靠譜的，但有些點是可以另外加入考慮的，但本文不贅述，

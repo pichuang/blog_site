@@ -6,6 +6,8 @@ udpated: 2018-08-05 23:57:15
 tags:
 - netdevops
 - ansible
+categories:
+  - ansible
 ---
 
 ## NetDevOps = Networking + DevOps
