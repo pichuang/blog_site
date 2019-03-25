@@ -18,7 +18,7 @@ date: 2019-03-25 00:02:00
 2. Data in a Host Volume
 3. Data in a Shared Storage
 
-但我那天沒講的事情是，這些 Backend Storage 的類型應該要選擇什麼是比較洽當的？所以下面整理了一下
+但我那天沒講的事情是，這些 Backend Storage 的類型應該要選擇什麼是比較恰當的？所以下面整理了一下
 
 <!--more-->
 
@@ -30,14 +30,14 @@ date: 2019-03-25 00:02:00
 
 Storage Type | Single Registry | Scaled Registry | Metrics | Logging | Apps |
 ---|---|---|---|---|---|---|---|---|
-Block|Configurable|Not Configurable|Recommended|Recommended|Recommended|
+Block|Configurable|Not Configurable|Recommended|Recommended|Recommended
 File|Configurable|Configurable|Configurable|Configurable|Recommended
 Object|Recommended|Recommended|Not Configurable|Not Configurable|Limited Recommended
 hostPath|Configurable|Configurable|Recommended|Recommended|Configurable
 
 Apps / Object 的欄位是 `Limited Recommended`，是因為建議直接在 Apps 層級上直接透過 API 或協定直接跟 Object Storage 溝通，而不是透過 PV / PVC 的作法來做掛載，因為現在 PV / PVC 僅有支援 Ceph RBD (Block)，而沒有 Ceph RGW (Object)
 
-那如果你真的很想...很想...要用 Cepg RGW (Object) 來當 PV 使用的話，請等前陣子 Red Hat 收購的一個專案 [Rook.io][3] 所推出的 Operator 作法，該專案現在也是 CNCF 的成員之一，詳細的內容等 TP (Tech Preview) 階段再來介紹
+那如果你真的很想...很想...要用 Ceph RGW (Object) 來當 PV 使用的話，請等前陣子 Red Hat 收購的一個專案 [Rook.io][3] 所推出的 Operator 作法，該專案現在也是 CNCF 的成員之一，詳細的內容等 TP (Tech Preview) 階段再來介紹
 
 ![](/images/rook-1.png)
 
