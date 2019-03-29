@@ -10,8 +10,6 @@ categories:
 date: 2019-03-25 00:02:00
 ---
 
-
-
 在小弟先前的演講中 [20190218_OpenShift Storage 架構思考][2]，有提到針對每個容器在容器平台 (Kubernetes / OpenShift / ...) 上，所儲存的資料會分為三大種架構類型：
 
 1. Data in the Container
@@ -40,6 +38,23 @@ Apps / Object 的欄位是 `Limited Recommended`，是因為建議直接在 Apps
 那如果你真的很想...很想...要用 Ceph RGW (Object) 來當 PV 使用的話，請等前陣子 Red Hat 收購的一個專案 [Rook.io][3] 所推出的 Operator 作法，該專案現在也是 CNCF 的成員之一，詳細的內容等 TP (Tech Preview) 階段再來介紹
 
 ![](/images/rook-1.png)
+
+## Storage Reommendation for Workload
+
+下表僅供參考，請依自身 Workload 大小進行選擇
+
+Workload | Exmaples | Storage Type
+---|---|---|
+etcd|Etcd backing store| hostPath
+Registry|Quay|Object / File
+Logging|ElasticSearch|Block / hostPath
+Metrics|Prometheus, Cassandra|Block / hostPath
+Relational DBs|MySQL, PGSQL|Block / hostPath / File
+NoSQL DBs|mongoDB, Couchbase|Block / hostPath / File
+Web Server|Nginx|File
+Messaging Queue|JBoss AMQ, Kafka|File / Block
+In Memory/Caching|Redis, JBoss Data Grid|Block
+CD/CD Toolchain|Jenkins, Mavan, CircleCI|Block / File
 
 ## 常見 Q&A
 ### Q1: 針對開發人員寫 Applications 時，到底 NFS 能不能成為 Backend Storage 的選擇之一?
