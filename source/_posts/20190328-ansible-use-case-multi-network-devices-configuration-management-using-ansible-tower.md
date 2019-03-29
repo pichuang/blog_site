@@ -25,8 +25,8 @@ date: 2019-03-28 09:47:00
 - 做什麼 Do What => Ansible Workflow
 - 怎麼做 How to do => Ansible Playbook
 
-## 常見Q&A
-### Q1: 什麼是 Ansible Workflow?
+
+## Q1: 什麼是 Ansible Workflow?
 
 假設你對於 Ansible 有一定的[了解][6]，你應該會知道一個正常能運作的腳本稱之為 Ansible Playbook 劇本
 
@@ -39,7 +39,7 @@ date: 2019-03-28 09:47:00
 
 而將這些不同的劇本串再一起變成一齣大戲，在 Ansible 術語稱作 [Workflow 工作流][7]
 
-### Q2: 怎麼那麼麻煩，阿不就依序執行 Ansible Playbook 下來就好了?
+## Q2: 怎麼那麼麻煩，阿不就依序執行 Ansible Playbook 下來就好了?
 
 NoNoNo, 每一次 Playbook 劇本演完之後，會拋出三種狀態之一的情況出來:
 1. On Succesful (綠線)
@@ -51,7 +51,7 @@ NoNoNo, 每一次 Playbook 劇本演完之後，會拋出三種狀態之一的�
 ![](/images/workflow-1.jpg)
 
 
-### Q3: 疑...等等 為什麼 Ansible 有 WEB 介面?
+## Q3: 疑...等等 為什麼 Ansible 有 WEB 介面?
 
 這是紅帽全球賣的嚇嚇叫的產品 `Red Hat Ansible Tower`
 
@@ -65,7 +65,7 @@ NoNoNo, 每一次 Playbook 劇本演完之後，會拋出三種狀態之一的�
 
 意者請洽詢台灣紅帽 XD 
 
-### Q4: 那我硬刻 Workflow 總可以吧?
+## Q4: 那我硬刻 Workflow 總可以吧?
 
 技術上能做到，範例就是紅帽自家容器平台的安裝程式 [openshift/openshift-ansible][8]
 這個等級是`用 Ansible 寫 Ansible` 了，用腦袋當 debugger 算變數傳遞位置 XD
