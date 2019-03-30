@@ -1,4 +1,4 @@
-layout: draft
+layout: post
 title: 'Red Hat Ansible Tower 常見使用案例: 用 RESTful API 與第三方產品結合'
 author: Phil Huang
 tags:

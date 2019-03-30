@@ -1,4 +1,4 @@
-layout: draft
+layout: post
 title: 'Red Hat Ansible Tower 常見使用案例: 跨多平台設備管理'
 author: Phil Huang
 tags:

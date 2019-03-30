@@ -1,4 +1,4 @@
-layout: draft
+layout: post
 title: Nvidia DGX 和 Red Hat OpenShift 會產生什麼火花?
 author: Phil Huang
 tags:
