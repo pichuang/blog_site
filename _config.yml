@@ -13,7 +13,7 @@ timezone: Asia/Taipei
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blog.pichuang.com.tw
+url: https://blog.pichuang.com.tw
 root: /
 permalink: :title/
 permalink_defaults:
@@ -81,3 +81,7 @@ deploy:
   type: git
   repo: git@github.com:pichuang/pichuang.github.io.git
   branch: master
+
+# Sitemap
+sitemap:
+  path: sitemap.xml
