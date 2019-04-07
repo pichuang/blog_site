@@ -60,7 +60,7 @@ date: 2019-03-30 00:30:00
 
 ## Summary
 
-那個影片後來發現其實在去年的 [SuperComputing 2018 (SC18)](https://sc18.supercomputing.org) 的會議上，就有被拿出來 Demo 了，從那之後 Red Hat 跟 Nvidia 在 AI/HPC 上的合作就越來越多了，前者出基礎架構平台，後者出 GPU 跟運算框架，在不久的將來應該還可以看到越來越多 GPU + Container 的使用方式出來
+那個影片後來發現其實在去年的 [SuperComputing 2018 (SC18)](https://sc18.supercomputing.org) 的會議上，就有被拿出來 Demo 了，從那之後 Red Hat 跟 Nvidia 在 AI/HPC 上的合作就越來越多了，前者出基礎架構平台，後者出 GPU 跟運算框架，在不久的將來應該還可以看到越來越多 GPU + Container 的使用方式出來，關於更多 NVDIA 的資訊，可以參考 [擴充應用程式映像，Nvidia簡化叢集環境與兩大產業容器部署 - iThome][8] 一文
 
 ## References
 - [Red Hat OpenShift, NVIDIA DGX and NGC Container Integration - Youtube][1]
@@ -70,6 +70,7 @@ date: 2019-03-30 00:30:00
 - [Deep Learning Inference on Openshift with GPUs][5]
 - [Blog: How to use GPUs with DevicePlugin in OpenShift 3.10][6]
 - [NVIDIA, Red Hat certify NVIDIA DGX-1 for Red Hat Enterprise Linux][7]
+- [擴充應用程式映像，Nvidia簡化叢集環境與兩大產業容器部署 - iThome][8]
 
 [1]: https://www.youtube.com/watch?v=9iVYjA_WJgU
 [2]: https://www.nvidia.com/zh-tw/data-center/tesla-v100/
@@ -78,3 +79,4 @@ date: 2019-03-30 00:30:00
 [5]: https://blog.openshift.com/wp-content/uploads/Nvidia-RedHat-Commons-Kubecon-2018.pdf
 [6]: https://blog.openshift.com/how-to-use-gpus-with-deviceplugin-in-openshift-3-10/
 [7]: https://blogs.nvidia.com/blog/2018/10/23/red-hat-enterprise-linux-dgx-1/
+[8]: https://www.ithome.com.tw/review/128970
