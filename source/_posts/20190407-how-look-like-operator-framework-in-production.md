@@ -2,12 +2,12 @@ layout: post
 title: 到底 Operator Framework 用起來會長得如何?
 author: Phil Huang
 tags:
-  - redhat
   - openshift
+  - redhat
   - operator
 categories:
   - openshift
-date: 2019-04-09 22:49:00
+date: 2019-04-07 22:49:00
 ---
 打從 Red Hat 收購 CoreOS 後，底下的子專案也一併地納入紅帽的管理，其中 Operator Framework 也在其中。而很多朋友只聞 Operator Framework 聲響，不聞 Operator Framework 身影，今天透過此篇文章來介紹一下 Operator Framework 實際上對 Red Hat OpenShift 容器平台會有怎樣的玩法？
 
@@ -70,6 +70,18 @@ Operator Framework 本身是一個框架，裡面包含 3 大部分:
 {% youtube HzkE7CZU7Bg %}
 
 
+## 各 Operator-SDK 比較表
+
+節錄 [How do I start writing an Operator?][18] 內容
+
+Operator Type | What the SDK Generates | What you need to define
+---|---|---
+Go Operator| - General go program structure<br>- Boilerplate code to talk to the Kubernetes API<br>- Boilerplate code to watch for Kubernetes objects of interest<br>- An entry point to the reconciliation loop<br>- An example YAML files based on CRDs|- Custom objects via CRDs<br>- Control loop logic in Go<br>- Potentially artistic stunts only possible by talking directly to the API from Go
+Ansible Operator|- A Go program that runs an Ansible playbook or role every time a certain type of object is detected / modified|- Ansible playbook or role<br>- Custom objects via CRD
+Helm Operator|- A custom object via CRD containing the same properties as the chart's values.yaml<br>- A Go program that reads a helm chart and deploys all its resources<br>- Watch statements to detect changes in the custom objects specification, re-deploying all resources with updated values|- The location / repository of the helm chart
+
+
+
 ## 想要深入技術細節?
 
 如果想要了解 Operator SDK for Helm / Ansible 的朋友歡迎點選下列兩個影片
@@ -98,6 +110,7 @@ Operator Framework 本身是一個框架，裡面包含 3 大部分:
 - [OperatorHub.io][15]
 - [OperatorHub.io - Contibute][16]
 - [OpenShift Commons Operator Framework SIG Mtg Rob Szumski How to Add Operator to Operator Hub 2019][17]
+- [How do I start writing an Operator?][18]
 
 [1]: https://www.youtube.com/watch?v=HzkE7CZU7Bg
 [2]: https://www.youtube.com/watch?v=KNbHNXXHzFY
@@ -116,3 +129,4 @@ Operator Framework 本身是一個框架，裡面包含 3 大部分:
 [15]: https://operatorhub.io
 [16]: https://operatorhub.io/contribute
 [17]: https://www.youtube.com/watch?v=-6dLnKOtgVY
+[18]: https://operatorhub.io/getting-started#How-do-I-start-writing-an-Operator?

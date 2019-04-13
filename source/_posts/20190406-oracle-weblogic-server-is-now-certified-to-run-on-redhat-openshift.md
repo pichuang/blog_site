@@ -28,6 +28,10 @@ Docker|1.13.1ce+
 
 有關於容器平台的部分，是以 Kubernetes 1.11 對齊，所以 Red Hat OpenShift v3.11 是完全可以使用的
 
+## Red Hat Container Catalog (RHCC) 現正放送中
+
+![](/images/weblogic-1.png)
+
 ## 技術概觀
 
 基礎上就是將 Oracle WebLogic 透過 [Operator 化][5]後，產生出一個專案 [oracle/weblogic-kubernetes-operator - GitHub][3]，爾後所有的安裝維護都是透過 Operator 協助，詳細的安裝過程可以參考 [Running WebLogic on OpenShift - ORACLE][2]，更詳細的技術說明文件可參考 [Oracle WebLogic Server Kubernetes Operator][4]
