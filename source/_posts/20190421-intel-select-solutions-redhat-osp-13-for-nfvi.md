@@ -65,7 +65,13 @@ Intel + Red Hat 聯名文件主要推薦配置為以下 (以 Base 最小等級�
 
 ![](/images/osp-nfv.png)
 
-一般來說 IaaS 的部分是以 Red Hat OpenStack 為主這點是沒錯的，Storage 的技術選型現行是以 Ceph 為優先考量，同時也跟 OpenStack 不同類型的 storage backend project (swift/cinder/glance/...)整合性最好。當然也是可以替換成第三方廠商的方案，並沒有說一定要選擇某個技術才能運行。而網路的部分，因為牽扯到實體網路的整合及最大化利用網路頻寬議題，通常都會在搭配一家 SDN 廠商在內進行 Overlay + Underlay 網路整合
+一般來說 IaaS 的部分是以 Red Hat OpenStack 為主這點是沒錯的，Storage 的技術選型現行是以 Ceph 為優先考量，同時也跟 OpenStack 不同類型的 storage backend project (swift/cinder/glance/...)整合性最好。當然也是可以替換成第三方廠商的方案，並沒有說一定要選擇某個技術才能運行。而網路的部分，因為牽扯到實體網路的整合及最大化利用網路頻寬議題，通常都會在搭配一家 SDN 廠商在內進行 Overlay + Underlay 網路整合，例如以下幾家都是不錯的組合
+
+- Cisco ACI
+- Juniper Contrail
+- BigSwitch BCF
+
+
 
 
 ## References

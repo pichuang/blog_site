@@ -35,6 +35,9 @@ Red Hat OpenShift Container Platform 3.11 是長期支援版本 (Long-Term Suppo
 - [OpenShift Container Platform 3.11 Release Notes][8]
 
 ## Total Solution
+
+下列章節摘錄 [適用於 Red Hat OpenShift Container Platform* 的 Intel® Select 解決方案之基本與加強組態][12] 一文
+
 ### Hardware Configuration
 
 文件提供兩個不同的 Configuration:
@@ -55,30 +58,6 @@ Intel + Red Hat 聯名文件主要推薦配置為以下 (以 Base 最小等級�
   
 至於詳細的 BOM (Bill Of Material) 表請參閱 [Intel® Select Solutions for Red Hat OpenShift Container Platform - April, 2019][1] 
 
-### CPU Selection & Capability
-
-主要的 CPU 選擇是以 Intel Xeon Scalable Processors 為主，CPU 自帶以下能力 (翻中文怪怪的直接貼):
-
-1. Intel® Platform Trust Technology (Intel PTT) or a discrete Trusted Platform Module (TPM) 2.0
-  - Protects the system start-up process by ensuring the boot hardware is tamper-free and provides secured storage for sensitive data.
-
-2. Intel®Hyper-ThreadingTechnology (Intel HT Technology)
-  - Ensures that systems use processor resources more efficiently and increases processor throughput to improve overall performance on threaded software.
-
-3. Intel Turbo Boost Technology
-  - Accelerates processor and graphics performance for peak loads.
-
-4. Intel Speed Shift technology
-  - Allows the processor to select its best operating frequency and voltage to deliver optimal performance and power efficiency.
-
-5. Adaptive Double DRAM Device Correction (ADDDC)
-  - Offers an innovative approach in managing errors to extend DIMM longevity.
-
-6. Advanced Error Detection and Correction (AEDC)
-  - Improves fault coverage by identifying and correcting errors.
-
-7. Local Machine Check Exception (LMCE): Helps improve performance.
-
 ### Minimum Performance Capabilities
 
 主要量測的工具有 3 個
@@ -88,10 +67,23 @@ Intel + Red Hat 聯名文件主要推薦配置為以下 (以 Base 最小等級�
 
 Target|Base|Plus
 ---|---|---
-Minimum number of magento instances workloads deployed to all applications nodes|32|72
-Number of sysbench pods (deployed to two infra nodes)|32|72
-Minimum number of concurrent users (Apache JMeter benchmark user web traffic from bastion node)|725|1400
-Application throughput (Average number of transactions per second)|310|620
+部署至所有應用程式節點的 Magento* 實例工作負載之最小數量|32|72
+Sysbench* Pods 的數量（部署至兩個基礎架構節點）	|32|72
+並行使用者的最小數量（Apache Jmeter* 效能標竿 [使用者網路流量] 部署至 Bastion 節點）	|725|1400
+應用程式輸送量（每秒平均異動數量）|310|620
+
+
+### 同場加映: OpenShift Partner Reference Architectures
+
+[OpenShift Partner Reference Architectures][10] 集合了各大廠對於 Red Hat OpenShift 安裝時的硬體配置建議，不仿可以參考看看
+
+[OpenShift Container Platform Reference Architecture Implementation Guides][11] 則收集了 Red Hat - OpenShift 安裝於各大環境上時的實作架構圖，包含:
+- Amazon Web Services (AWS)
+- Microsoft Azure
+- Google Cloud Platform (GCP)
+- Red Hat OpenStack Platform
+- VMWare vSphere
+- Red Hat Virtualization (RHV).
 
 ## References
 - [Intel® Select Solutions for Red Hat OpenShift Container Platform][1]
@@ -102,6 +94,10 @@ Application throughput (Average number of transactions per second)|310|620
 - [那些年的 OpenShift 3.11 容器平台技術選型_20190122][6]
 - [Red Hat OpenShift v3.11 東西南北向網路探討][7]
 - [OpenShift Container Platform 3.11 Release Notes][8]
+- [Reference Architecture: Red Hat OpenShift Container Platform on Lenovo ThinkSystem Servers][9]
+- [OpenShift Partner Reference Architectures][10]
+- [OpenShift Container Platform Reference Architecture Implementation Guides][11]
+- [適用於 Red Hat OpenShift Container Platform* 的 Intel® Select 解決方案之基本與加強組態][12]
 
 [1]: https://www.intel.com.tw/content/www/tw/zh/products/docs/select-solutions/select-solutions-for-red-hat-openshift-container-platform-brief.html
 [2]: https://github.com/magento/magento2/tree/2.3-develop/setup/performance-toolkit
@@ -111,3 +107,7 @@ Application throughput (Average number of transactions per second)|310|620
 [6]: https://speakerdeck.com/pichuang/na-xie-nian-de-openshift-3-dot-11-rong-qi-ping-tai-ji-shu-xuan-xing-20190122
 [7]: https://blog.pichuang.com.tw/20190404-openshift-network-traffic-overview/
 [8]: https://docs.openshift.com/container-platform/3.11/release_notes/ocp_3_11_release_notes.html
+[9]: https://lenovopress.com/lp0968.pdf
+[10]: https://blog.openshift.com/openshift-partner-reference-architectures/
+[11]: https://blog.openshift.com/openshift-container-platform-reference-architecture-implementation-guides/
+[12]: https://www.intel.com.tw/content/www/tw/zh/products/solutions/select-solutions/cloud/red-hat-openshift-container-platform.html
