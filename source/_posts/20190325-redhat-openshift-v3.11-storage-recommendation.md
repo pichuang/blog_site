@@ -66,6 +66,8 @@ A1:
 
 Workload Loading 如果不算高的話，其實還是可以用 NFS，但若是屬於 High Disk I/O 類型的，譬如說 Metrics / Logging / Database 這類的，就不太建議了，應該要考量其他的作法
 
+詳細技術可以參考 [NFS 於 Kubernetes 內的各種應用 - hwchiu][5]
+
 ### Q2: 那我用 Object Stroage 的話，要怎麼把 Applications 所產生的資料放進去?
 
 A2: 建議在 Applicaions 層級上用 Object Storage 所提供的 S3/S3A API 做正常資料的存取
@@ -80,8 +82,10 @@ A3: 先把這篇 [你到底知不知道什麼是 Kubernetes? - hwchiu][4] 看完
 - [20190218_OpenShift Storage 架構思考 - Phil Huang][2]
 - [rook.io - File, Block, and Object Storage Services for your Cloud-Native Environments][3]
 - [你到底知不知道什麼是 Kubernetes? - hwchiu][4]
+- [NFS 於 Kubernetes 內的各種應用 - hwchiu][5]
 
 [1]: https://docs.openshift.com/container-platform/3.11/scaling_performance/optimizing_storage.html#back-end-recommendations
 [2]: https://speakerdeck.com/pichuang/20190218-openshift-storage-jia-gou-si-kao
 [3]: https://rook.io/
 [4]: https://www.hwchiu.com/kubernetes-concept.html
+[5]: https://www.hwchiu.com/kubernetes-storage-ii.html
