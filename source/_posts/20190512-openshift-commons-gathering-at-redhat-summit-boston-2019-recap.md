@@ -61,7 +61,7 @@ date: 2019-05-12 00:03:00
 
 ### 更多資訊
 
-如果你想看其他的使用案例內容，可以參考英文全文 [OpenShift Commons Gathering at Red Hat Summit Boston 2019 Recap [Videos and Slides]][1]
+如果你想看其他的使用案例內容，NASA、Volkswagen、Sabre、Thyssenkrupp Elevators、Best Buy，可以參考英文全文 [OpenShift Commons Gathering at Red Hat Summit Boston 2019 Recap [Videos and Slides]][1]
 
  
 ## References

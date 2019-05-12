@@ -31,6 +31,13 @@ Red Hat OpenStack 13 Queens 是長期支援版本 (Long-Term Support, LTS)，生
 ![](/images/ffu.png)
 
 ## Total Solution
+
+### Reference Architecture (RA)
+
+- [Lenovo RA: Red Hat OpenStack Platform 13][7]
+- [QCT RA: QxStack with Red Hat OpenStack Platform][8]
+- [QCT RA: QxStack NFVI on Red Hat OpenStack Platform 13][9]
+
 ### Hardware Configuration
 
 針對 OpenStack for NFVi 角色主要拆分兩個:
@@ -71,9 +78,6 @@ Intel + Red Hat 聯名文件主要推薦配置為以下 (以 Base 最小等級�
 - Juniper Contrail
 - BigSwitch BCF
 
-
-
-
 ## References
 
 - [導讀 Intel Select Solutions: Red Hat OpenShift Container Platform][1]
@@ -81,6 +85,9 @@ Intel + Red Hat 聯名文件主要推薦配置為以下 (以 Base 最小等級�
 - [Intel® Select Solutions for NFVI][4]
 - [Network Functions Virtualization Product Guide - Red Hat OSP 13 Guide][5]
 - [Red Hat OpenStack* Platform with Red Hat Ceph* Storage - Intel][6]
+- [Lenovo RA: Red Hat OpenStack Platform 13][7]
+- [QCT RA: QxStack with Red Hat OpenStack Platform][8]
+- [QCT RA: QxStack NFVI on Red Hat OpenStack Platform 13][9]
 
 [1]: https://blog.pichuang.com.tw/20190421-intel-select-solutions-redhat-openshift-container-platform/
 [2]: https://builders.intel.com/docs/networkbuilders/intel-select-solutions-for-nfvi-with-red-hat-enterprise-linux-and-red-hat-openstack.pdf
@@ -88,3 +95,6 @@ Intel + Red Hat 聯名文件主要推薦配置為以下 (以 Base 最小等級�
 [4]: https://builders.intel.com/intelselectsolutions/intelselectsolutionsfornfvi
 [5]: https://access.redhat.com/documentation/en-us/red_hat_openstack_platform/13/html-single/network_functions_virtualization_product_guide/index
 [6]: https://www.intel.com/content/www/us/en/data-center-blocks/cloud/redhat-cloud-blocks-reference-architecture.html
+[7]: https://lenovopress.com/lp0762-reference-architecture-red-hat-openstack-platform
+[8]: https://go.qct.io/wp-content/uploads/2018/08/QxStack-with-RedHat-OpenStack-Platform_RA_v1.1.pdf
+[9]: https://go.qct.io/wp-content/uploads/2019/04/QxStack-NFVI-on-Red-Hat-OpenStack-Platform-13_Reference-Architecture_v2.0.pdf

@@ -42,20 +42,20 @@ IOPS 優化|- Lowest cost per IOPS <br> - Highest IOPS per GB <br>- 99% latency 
 Throughput 優化|- Lowest cost per MBps (throughput) <br>- Highest MBps per TB<br>- Highest MBps per BTU<br>- Highest MBps per Watt<br>- 97% latency consistency|- Block or Object storage<br>- 3 x replication<br>- Streaming media/data/images
 Cost/Capacity 優化|- Lowest cost per TB<br>- Lowest BTU per TB<br>- Lowest Watts required per TB|- Object storage<br>- Erasure coding<br>- Object archive
 
-### 硬體規格
+### Referencea Archtictures (RAs)
 建議於最小規模 (Small) 最少需三台實體機，而每台 Ceph Server 最小規格，可參考 Red Hat Partner 推薦型號
 
-- [QCT: QxStor Red Hat Ceph Storage Edition - QxStor RCT-200][3]
+- [QCT QxStor Red Hat Ceph Storage Edition - QxStor RCT-200][3]
 - [Dell PowerEdge R730xd Performance and Sizing Guide for Red Hat Ceph Storage][12]
 - [Cisco UCS S3260 Storage Server and Red Hat Ceph Storage Performance][13]
 - [Lenovo Reference Architecture: Red Hat Ceph Storage][18]
-- [][]
+- [Micron RA: 9200 MAX NVMeTM With 5210 QLC SATA SSDs for Red Hat® Ceph Storage 3.2 and BlueStore on AMD EPYCTM][20]
 
 倘若想自行精算配置的話，則可參考此篇 [Technical Detail: Red Hat Ceph Storage on Servers with Intel Processors and SSDs][10] 推算硬體規格
 
 
 
-# About BlueStore
+## About BlueStore
 
 另因 Red Hat Ceph Storage 3.2 宣布可使用 `BlueStore` 方式部署，底下是 BlueStore v.s. Filestore 的技術堆疊比較
 
@@ -71,6 +71,11 @@ From [BlueStore Unleashed][15]
 
 ![](/images/ceph-3.png)
 
+### Red Hat Ceph Storage 3.2 PoC 評測文
+- [Part - 1: BlueStore (Default vs. Tuned) Performance Comparison][17]
+- [Part - 2: Ceph Block Storage Performance on All-Flash Cluster with BlueStore backend][21]
+- [Part - 3: RHCS Bluestore performance Scalability (3 vs 5 nodes)][22]
+
 
 ## References
 - [Brief: How to configure Red Hat Ceph Storage][1]
@@ -84,10 +89,12 @@ From [BlueStore Unleashed][15]
 - [Ceph USE CASES / REFERENCE ARCHITECTURES][14]
 - [BlueStore Unleashed][15]
 - [Ceph 分散式儲存系統介紹 - KaiRen's Blog][16]
-- [BlueStore (Default vs. Tuned) Performance Comparison][17]
 - [Lenovo Reference Architecture: Red Hat Ceph Storage][18]
 - [Micron Accelerated Solutions for Red Hat Ceph Storage][19]
 - [Reference Architecture: Micron® 9200 MAX NVMeTM With 5210 QLC SATA SSDs for Red Hat® Ceph Storage 3.2 and BlueStore on AMD EPYCTM][20]
+- [Part - 1: BlueStore (Default vs. Tuned) Performance Comparison][17]
+- [Part - 2: Ceph Block Storage Performance on All-Flash Cluster with BlueStore backend][21]
+- [Part - 3: RHCS Bluestore performance Scalability (3 vs 5 nodes)][22]
 
 [1]: https://www.redhat.com/en/resources/red-hat-ceph-storage-hardware-selection-guide
 [2]: https://www.redhat.com/en/resources/how-configure-red-hat-ceph-storage
@@ -108,3 +115,5 @@ From [BlueStore Unleashed][15]
 [18]: https://lenovopress.com/lp1147.pdf
 [19]: https://www.micron.com/solutions/micron-accelerated-solutions/micron-accelerated-solutions-for-ceph-storage
 [20]: https://www.micron.com/-/media/client/global/documents/products/other-documents/5210_9200_amd_ceph_reference_architecture.pdf?la=en
+[21]: https://ceph.com/community/ceph-block-storage-performance-on-all-flash-cluster-with-bluestore-backend/
+[22]: https://ceph.com/community/part-3-rhcs-bluestore-performance-scalability-3-vs-5-nodes/

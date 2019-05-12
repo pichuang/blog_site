@@ -10,8 +10,8 @@ date: 2019-02-23 23:22:34
 * 曾任 Edgecore Networks Open Networking Solution Engineer
 * 畢業於交通大學資訊科學工程研究所系統實務組 (丁組)、東海大學資工系
 * 社群活動
-  * Co-founder of SDNDS-TW
-  * Member of Cloud Native Taiwan User Group
+  * Co-founder of [SDNDS-TW](https://www.facebook.com/groups/sdnds.tw)
+  * Member of [Cloud Native Taiwan User Group](https://www.facebook.com/groups/cloudnative.tw/)
 * Personal Link
   * [GitHub](http://github.com/pichuang)
   * [Linkedin](https://www.linkedin.com/in/phil-huang-09b09895/)
