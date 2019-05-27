@@ -1,13 +1,13 @@
----
 layout: page
 title: 演講紀錄
-date: 2019-02-23 23:23:30
 tags:
-- record
-- speach
+  - record
+  - speach
+date: 2019-02-23 23:23:30
 ---
-
-## 2019 (Total: 4)
+## 2019 (Total: 6)
+* 20190522, 以 Ansible Tower 協助企業網路自動化管理, Juniper Networks Innovation Day, Taiwan
+* 20190423, OpenShift 容器平台技術概觀, TFC, Taiwan
 * 20190218, [OpenShift Storage 架構思考](https://speakerdeck.com/pichuang/20190218-openshift-storage-jia-gou-si-kao), OpenShift Taiwan Meetup #2, Taiwan
 * 20190214, [After CoreOS](https://speakerdeck.com/pichuang/after-coreos-20190214), DevOps Taiwan Meetup #21, Taiwan
 * 20190130, [Ansible 技術概觀介紹](https://speakerdeck.com/pichuang/ansible-ji-shu-gai-guan-jie-shao-20190130), TFC #13, Taiwan
