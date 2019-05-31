@@ -37,6 +37,7 @@ Red Hat OpenStack 13 Queens 是長期支援版本 (Long-Term Support, LTS)，生
 - [Lenovo RA: Red Hat OpenStack Platform 13][7]
 - [QCT RA: QxStack with Red Hat OpenStack Platform][8]
 - [QCT RA: QxStack NFVI on Red Hat OpenStack Platform 13][9]
+- [Lenovo RA: OpenStack Reference Architecture for Service Providers][10]
 
 ### Hardware Configuration
 
@@ -88,6 +89,7 @@ Intel + Red Hat 聯名文件主要推薦配置為以下 (以 Base 最小等級�
 - [Lenovo RA: Red Hat OpenStack Platform 13][7]
 - [QCT RA: QxStack with Red Hat OpenStack Platform][8]
 - [QCT RA: QxStack NFVI on Red Hat OpenStack Platform 13][9]
+- [Lenovo RA: OpenStack Reference Architecture for Service Providers][10]
 
 [1]: https://blog.pichuang.com.tw/20190421-intel-select-solutions-redhat-openshift-container-platform/
 [2]: https://builders.intel.com/docs/networkbuilders/intel-select-solutions-for-nfvi-with-red-hat-enterprise-linux-and-red-hat-openstack.pdf
@@ -98,3 +100,4 @@ Intel + Red Hat 聯名文件主要推薦配置為以下 (以 Base 最小等級�
 [7]: https://lenovopress.com/lp0762-reference-architecture-red-hat-openstack-platform
 [8]: https://go.qct.io/wp-content/uploads/2018/08/QxStack-with-RedHat-OpenStack-Platform_RA_v1.1.pdf
 [9]: https://go.qct.io/wp-content/uploads/2019/04/QxStack-NFVI-on-Red-Hat-OpenStack-Platform-13_Reference-Architecture_v2.0.pdf
+[10]: https://lenovopress.com/lp0913.pdf
