@@ -7,7 +7,6 @@ categories:
   - network
 date: 2019-05-27 11:42:00
 ---
-
 ![](/images/throughput-bandwidth.png)
 
 - 頻寬 (Bandwidth)：水管的大小  
@@ -33,5 +32,4 @@ date: 2019-05-27 11:42:00
 
 理論傳輸公式：Time (s) = File Size / Bandwidth  
 實際傳輸公式：Time (s) = File Size / Throughput
-
 

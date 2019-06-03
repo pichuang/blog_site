@@ -97,7 +97,7 @@ Intel + Red Hat 聯名文件主要推薦配置為以下 (以 Base 最小等級�
 [4]: https://builders.intel.com/intelselectsolutions/intelselectsolutionsfornfvi
 [5]: https://access.redhat.com/documentation/en-us/red_hat_openstack_platform/13/html-single/network_functions_virtualization_product_guide/index
 [6]: https://www.intel.com/content/www/us/en/data-center-blocks/cloud/redhat-cloud-blocks-reference-architecture.html
-[7]: https://lenovopress.com/lp0762-reference-architecture-red-hat-openstack-platform
+[7]: https://lenovopress.com/lp0762.pdf
 [8]: https://go.qct.io/wp-content/uploads/2018/08/QxStack-with-RedHat-OpenStack-Platform_RA_v1.1.pdf
 [9]: https://go.qct.io/wp-content/uploads/2019/04/QxStack-NFVI-on-Red-Hat-OpenStack-Platform-13_Reference-Architecture_v2.0.pdf
 [10]: https://lenovopress.com/lp0913.pdf
