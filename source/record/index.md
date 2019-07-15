@@ -5,7 +5,9 @@ tags:
   - speach
 date: 2019-02-23 23:23:30
 ---
-## 2019 (Total: 6)
+## 2019 (Total: 8)
+* 20190730, Hybrid Cloud Series, Taiwan
+* 20190627, [Ansible for Network Automation](https://speakerdeck.com/pichuang/ansible-for-network-automation), Ansible Automates, Taiwan
 * 20190522, 以 Ansible Tower 協助企業網路自動化管理, Juniper Networks Innovation Day, Taiwan
 * 20190423, OpenShift 容器平台技術概觀, TFC, Taiwan
 * 20190218, [OpenShift Storage 架構思考](https://speakerdeck.com/pichuang/20190218-openshift-storage-jia-gou-si-kao), OpenShift Taiwan Meetup #2, Taiwan
