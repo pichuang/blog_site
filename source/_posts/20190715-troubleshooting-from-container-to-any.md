@@ -106,7 +106,7 @@ oc run ocp-debug-container --image=quay.io/pichuang/debug-container \
 
 理論上來說，觀念上是適用於其他以 Docker 及 Kubernetes 為主的容器平台，所以可以自行在家試試看
 
-## 同場加映: sysdig
+## 同場加映 Part 1: sysdig
 
 ```
 docker run -it --rm --name=sysdig --privileged=true \
@@ -117,4 +117,20 @@ docker run -it --rm --name=sysdig --privileged=true \
           --volume=/lib/modules:/host/lib/modules:ro \
           --volume=/usr:/host/usr:ro \
           sysdig/sysdig
+```
+
+## 同場加映 Part 2: netshoot
+- [nicolaka/netshoot - GitHub](https://github.com/nicolaka/netshoot)
+```
+# Container's Network Namesapce
+docker run -it --net container:<container_name> nicolaka/netshoot
+
+# Host's Network namesapce
+docker run -it --net host nicolaka/netshoot
+
+# Networks's Network namespace
+# Use `nsenter`
+
+# K8s's network debugging
+kubectl run tmp-shell --rm -i --tty --image nicolaka/netshoot -- /bin/bash
 ```

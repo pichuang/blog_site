@@ -79,6 +79,8 @@ Kubevirt 是所謂的 Upstream Project，也就是大家可以任意使用的 Co
 - [A First Look at KubeVirt  - Red Hat OpenShift Blog][6]
 - [Introducing Container-native Virtualization - Red Hat Summit 2018][7]
 - [kubevirt/kubevirt - GitHub][8]
+- [Running Legacy VM’s along with containers in Kubernetes... Delusion or Reality? NTT Open Source Software Center][9]
+
 
 [1]: https://blog.openshift.com/getting-started-with-kubevirt/
 [2]: https://kubevirt.io/
@@ -88,3 +90,4 @@ Kubevirt 是所謂的 Upstream Project，也就是大家可以任意使用的 Co
 [6]: https://blog.openshift.com/a-first-look-at-kubevirt/
 [7]: https://www.slideshare.net/sgordon2/introducing-containernative-virtualization
 [8]: https://github.com/kubevirt/kubevirt
+[9]: https://static.sched.com/hosted_files/ossalsjp19/64/Running%20Legacy%20VMs%20with%20Kubernetes.pdf
