@@ -1,5 +1,5 @@
 layout: post
-title: 容器與容器平台強固化保護思路
+title: 容器平台強固化保護思路
 author: Phil Huang
 tags:
   - openshift
@@ -79,7 +79,7 @@ date: 2019-07-23 23:59:00
 而發展至今，以包含虛擬網路 (Overlay Networking)、實體網路 (Underlay Networking) 之整體網路觀點來看，可以區分以下 5 種類型 (編: 這邊的歸納名是自取，並非通用說法，雖然目前也沒有通用說法，歡迎修正)：
 1. Pure CNI Plugin: 可獨立運作，不需要深度依靠實體網路能力，絕大部分 CNI Plugins 皆屬此類，如 Calico、Flannel、OVN 等
 2. Hypervisor CNI Plugin: 基於 Hypervisor 提供的虛擬化技術，不需要深度依靠實體網路能力，提供整合能力，如 VMware NSX-T Container Plugin (NCP)
-3. Hybrid CNI Plugin: 可獨立運作或可與實體網路進行虛實整合，如 Juniper Contrail
+3. Hybrid CNI Plugin: 可獨立運作或可與實體網路進行虛實整合，如 [Juniper Contrail][30]
 4. Mixed CNI Plugin: 需與實體網路進行整合，如 Cisco ACI、BigSwitch Big Cloud Fabric (BCF)
 5. Proxy CNI Plugin: 可透過該網路介面再接其他的 CNI Plugin，以達到單 Pod 多網卡的需求，如 [Intel Multus](https://github.com/intel/multus-cni)、[Huawei Genie](https://github.com/Huawei-PaaS/CNI-Genie)、[Nokia DAMN](https://github.com/nokia/danm)
 
@@ -107,6 +107,13 @@ date: 2019-07-23 23:59:00
 > 好的開始是成功的一半，好的映像檔能讓你睡眠品質提升
 
 真心不知道怎麼開始的話，建議就先從 `第一戒律：Standardize` 開始慢慢做起吧
+
+## 結語
+
+- 我最一開始只是想強調的是 OS 真的是很重要，請不要忽視他 XD
+- 呈上，整體系統整合穩定度也是一樣很重要，還記得木桶理論嗎?
+- Multus 穩定釋出後，對於所有規劃容器平台網路的人都會是一個 __ 的開始，Container Network Function (CNF) 笑而不語中
+- 感謝 iThome 讓我充實了很多版面
 
 
 ## References
@@ -138,6 +145,7 @@ date: 2019-07-23 23:59:00
 - [Ten layers of container security - Red Hat][27]
 - [Introducing the Red Hat Universal Base Image - Red Hat][28]
 - [報告：前十大熱門Docker映像檔都有至少30個以上的漏洞 - iThome][29]
+- [導讀 OpenShift Commons Telco SIG: Juniper Contrail: Kubernetes Multi-Interface Pods For Telco Use Cases][30]
 
 
 [1]: https://www.ithome.com.tw/article/129426
@@ -169,3 +177,4 @@ date: 2019-07-23 23:59:00
 [27]: https://www.redhat.com/en/resources/container-security-openshift-cloud-devops-whitepaper
 [28]: https://www.redhat.com/en/blog/introducing-red-hat-universal-base-image
 [29]: https://www.ithome.com.tw/news/129018
+[30]: https://blog.pichuang.com.tw/20190405-guide-openshift-commons-telco-sig-juniper-contrail-kubernetes-multi-interface-pods-for-telco-use-cases/
