@@ -36,11 +36,16 @@ date: 2019-07-23 23:59:00
 
 以 RH 體系的套件管理系統為例，實務上，對於作業系統的加固，除了看到 CVE 要上修補 (Patch)、定期更新套件 `yum --secure update`，有時候也會依據各自公司政策上的不同會搭配合規性驗證 (Compliance Validation)，以確保於操作系統層級上，與其他的環境是保持一致的，也就是常講的系統強化或系統標準化 (Standard of Environment, SoE)。
 
-而常見的稽核準則有下列四個標準可以參考：
+而常見的稽核準則有下列 5 個標準可以參考：
 1. 美國聯邦資訊處理標準 (Federal Information Processing Standard, FIPS 140-2)
-2. 支付卡產業資料安全標準 (Payment Card Industray Data Security Standard, PCI DSS)
+2. 信用卡產業資料安全標準 (Payment Card Industray Data Security Standard, PCI DSS)
 3. 美國國家工業安全計畫操作手冊 (National Industrial Security Program Operating Manual, NISPOM, or DoD. 5220.22-M)
 4. 美國防禦資訊系統代理機構之安全性技術實作指南 (DISA Security Technical Implementation Guide, STIG)
+5. 美國政府組態基準 (United States Government Configuration Baseline, USGCB)
+
+或者 [OpenSCAP Security Guides](https://static.open-scap.org/) 提出的參考基準：
+1. [Red Hat Corporate Profile for Certified Cloud Providers (RH CCP)][32]
+2. [Standard System Security Profile for RHEL7][31]
 
 當然如果有各自公司有內部的稽核規則，也可以透過 Ansible + OpenSCAP 一併規劃使用，以達到 [Security Automation][9] 的效果
 
@@ -52,7 +57,7 @@ date: 2019-07-23 23:59:00
 2. 互聯網安全中心 (The Center for Internet Security, CIS) Kubernetes Benchmark
 3. 資訊安全國際標準 ISO/IEC 27001:2013
 4. 美國聯邦資訊安全管理法 (Federal Information Security Management Act, FISMA)
-5. 支付卡產業資料安全標準 (Payment Card Industray Data Security Standard 3.2, PCI DSS 3.2)
+5. 信用卡產業資料安全標準 (Payment Card Industray Data Security Standard 3.2, PCI DSS 3.2)
 
 因為 Kubernetes 所帶動的技術發展太快了，如果是一直衝非常前沿的技術基本上這個章節沒有參考價值，但如果是為了企業內長久穩定使用則可以參考一下這些不同的規範來做強固化依據
 
@@ -95,7 +100,7 @@ date: 2019-07-23 23:59:00
 
 ![](/images/docker-dig.png)
 
-[Docker移除17個暗藏挖礦程式的惡意容器 - iThome][25] 這新聞應該是最實際的例子，塞了挖礦程式的映像黨存在公開網路一年，下載次數超過 500 萬，還真的有挖到幣 XD。另外還有 [報告：前十大熱門Docker映像檔都有至少30個以上的漏洞 - iThome][29] 等漏洞存在在映像檔內等情事發生。
+[Docker移除17個暗藏挖礦程式的惡意容器 - iThome][25] 這新聞應該是最實際的例子，塞了挖礦程式的容器映像檔存在公開網路一年，下載次數超過 500 萬，還真的有挖到幣 XD。另外還有 [報告：前十大熱門Docker映像檔都有至少30個以上的漏洞 - iThome][29] 等漏洞存在在映像檔內等情事發生。
 
 為了避免類似情況發生，會有以下 3 種建議作法：
 1. 只用官方提供的映像檔: DockerHub library/\*、Red Hat Container Catalog (RHCC) 等
@@ -178,3 +183,5 @@ date: 2019-07-23 23:59:00
 [28]: https://www.redhat.com/en/blog/introducing-red-hat-universal-base-image
 [29]: https://www.ithome.com.tw/news/129018
 [30]: https://blog.pichuang.com.tw/20190405-guide-openshift-commons-telco-sig-juniper-contrail-kubernetes-multi-interface-pods-for-telco-use-cases/
+[31]: https://static.open-scap.org/ssg-guides/ssg-centos7-guide-standard.html
+[32]: https://static.open-scap.org/ssg-guides/ssg-rhel7-guide-rht-ccp.html

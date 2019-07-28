@@ -95,6 +95,8 @@ From [BlueStore Unleashed][15]
 - [Part - 1: BlueStore (Default vs. Tuned) Performance Comparison][17]
 - [Part - 2: Ceph Block Storage Performance on All-Flash Cluster with BlueStore backend][21]
 - [Part - 3: RHCS Bluestore performance Scalability (3 vs 5 nodes)][22]
+- [Part – 4 : RHCS 3.2 Bluestore Advanced Performance Investigation][23]
+
 
 [1]: https://www.redhat.com/en/resources/red-hat-ceph-storage-hardware-selection-guide
 [2]: https://www.redhat.com/en/resources/how-configure-red-hat-ceph-storage
@@ -117,3 +119,4 @@ From [BlueStore Unleashed][15]
 [20]: https://www.micron.com/-/media/client/global/documents/products/other-documents/5210_9200_amd_ceph_reference_architecture.pdf?la=en
 [21]: https://ceph.com/community/ceph-block-storage-performance-on-all-flash-cluster-with-bluestore-backend/
 [22]: https://ceph.com/community/part-3-rhcs-bluestore-performance-scalability-3-vs-5-nodes/
+[23]: https://ceph.com/community/part-4-rhcs-3-2-bluestore-advanced-performance-investigation/
