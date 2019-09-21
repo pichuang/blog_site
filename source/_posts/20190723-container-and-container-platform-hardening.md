@@ -84,7 +84,7 @@ date: 2019-07-23 23:59:00
 而發展至今，以包含虛擬網路 (Overlay Networking)、實體網路 (Underlay Networking) 之整體網路觀點來看，可以區分以下 5 種類型 (編: 這邊的歸納名是自取，並非通用說法，雖然目前也沒有通用說法，歡迎修正)：
 1. Pure CNI Plugin: 可獨立運作，不需要深度依靠實體網路能力，絕大部分 CNI Plugins 皆屬此類，如 Calico、Flannel、OVN 等
 2. Hypervisor CNI Plugin: 基於 Hypervisor 提供的虛擬化技術，不需要深度依靠實體網路能力，提供整合能力，如 VMware NSX-T Container Plugin (NCP)
-3. Hybrid CNI Plugin: 可獨立運作或可與實體網路進行虛實整合，如 [Juniper Contrail][30]
+3. Hybrid CNI Plugin: 可獨立運作或可與實體網路進行虛實整合，如 [Juniper Contrail][30]、[ONOS SONA-CNI][33]
 4. Mixed CNI Plugin: 需與實體網路進行整合，如 Cisco ACI、BigSwitch Big Cloud Fabric (BCF)
 5. Proxy CNI Plugin: 可透過該網路介面再接其他的 CNI Plugin，以達到單 Pod 多網卡的需求，如 [Intel Multus](https://github.com/intel/multus-cni)、[Huawei Genie](https://github.com/Huawei-PaaS/CNI-Genie)、[Nokia DAMN](https://github.com/nokia/danm)
 
@@ -185,3 +185,4 @@ date: 2019-07-23 23:59:00
 [30]: https://blog.pichuang.com.tw/20190405-guide-openshift-commons-telco-sig-juniper-contrail-kubernetes-multi-interface-pods-for-telco-use-cases/
 [31]: https://static.open-scap.org/ssg-guides/ssg-centos7-guide-standard.html
 [32]: https://static.open-scap.org/ssg-guides/ssg-rhel7-guide-rht-ccp.html
+[33]: https://github.com/sonaproject/sona-cni
