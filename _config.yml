@@ -86,7 +86,7 @@ deploy:
 sitemap:
   path: sitemap.xml
 
-math:
-  engine: 'mathjax'
-  mathjax:
-    config:
+#math:
+#  engine: 'mathjax'
+#  mathjax:
+#    config:

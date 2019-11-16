@@ -1,5 +1,5 @@
 layout: post
-title: 2019 大改造宅宅雲架構系列文-2
+title: 2019 大改造宅宅雲架構系列文-2 宅宅雲硬體介紹
 author: Phil Huang
 tags:
   - linux

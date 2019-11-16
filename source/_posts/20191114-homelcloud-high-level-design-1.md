@@ -1,5 +1,5 @@
 layout: post
-title: 2019 大改造宅宅雲架構系列文-1
+title: 2019 大改造宅宅雲架構系列文-1 總綱及裝備清單
 author: Phil Huang
 tags:
   - linux
