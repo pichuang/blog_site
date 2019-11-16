@@ -5,7 +5,8 @@ tags:
   - speach
 date: 2019-02-23 23:23:30
 ---
-## 2019 (Total: 11)
+## 2019 (Total: 12)
+* 20191105, 管理容器與混合雲環境：剖析資訊安全自動化與法規遵從, [Red Hat Forum Taipei 2019](https://www.redhat.com/zh/zh-tw), Taiwan
 * 20190911, [Red Hat Service Mesh Workshop](https://hackmd.io/@k8ssummit/19/%2F%40k8ssummit%2FSJrCqfqrS), [Kubernetes Summit 2019](https://summit.ithome.com.tw/kubernetes/workshops.html), Taiwan
 * 20190817, [Container Bare Metal for Networking](https://speakerdeck.com/pichuang/20190817-container-bare-metal-for-networking), [COSCUP 2019](https://coscup.org/2019/programs/multicloud-sdn/), Taiwan
 * 20190730, Security & Insights with Management & Automation, Red Hat Hybrid Cloud Forum, Taiwan
