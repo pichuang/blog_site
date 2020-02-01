@@ -5,7 +5,11 @@ tags:
   - speach
 date: 2019-02-23 23:23:30
 ---
-## 2019 (Total: 12)
+## 2020 (Total: 1)
+* 20200109, SQL Server 2019 攜手 Red Hat OpenShift Container Platform 強強聯手打造企業級混合雲, [SQL Server 2019 與開源容器Kubernetes實戰營](https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x8850296abcd), Taiwan
+
+## 2019 (Total: 13)
+* 20191221, [The First Journey from docker to podman](https://speakerdeck.com/pichuang/the-first-journey-from-docker-to-podman), SDN x Cloud Native Meetup #23, Taiwan
 * 20191105, 管理容器與混合雲環境：剖析資訊安全自動化與法規遵從, [Red Hat Forum Taipei 2019](https://www.redhat.com/zh/zh-tw), Taiwan
 * 20190911, [Red Hat Service Mesh Workshop](https://hackmd.io/@k8ssummit/19/%2F%40k8ssummit%2FSJrCqfqrS), [Kubernetes Summit 2019](https://summit.ithome.com.tw/kubernetes/workshops.html), Taiwan
 * 20190817, [Container Bare Metal for Networking](https://speakerdeck.com/pichuang/20190817-container-bare-metal-for-networking), [COSCUP 2019](https://coscup.org/2019/programs/multicloud-sdn/), Taiwan

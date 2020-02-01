@@ -79,7 +79,7 @@ Egress 顧名思義可以了解到是從 OpenShift 的 Pod 向外去存取外部
 
 其中 OpenShift Egress Routers 的技術細節跟上面所討論的 Ingress Controller: OpenShift Router 是很類似的，而模式上也有三種做法可以選擇，分別是 Redirect、HTTP Proxy、DNS Proxy
 
-   | Redirect mode | HTTP Proxy mode | DNS Proxy mode
+分類 | Redirect mode | HTTP Proxy mode | DNS Proxy mode
 ---|---|---|---
 Support Protocols | TCP/UDP | HTTP/HTTPS | TCP
 Image | ose-pod | ose-egress-http-proxy | ose-egress-dns-proxy
