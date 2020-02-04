@@ -49,7 +49,7 @@ skopeo inspect docker://quay.misc.internal/library/centos:latest
 skopeo inspect docker://quay.misc.internal/golden/centos:latest
 ```
 
-這樣兩邊的 Container Images 內容會是一模一樣的，差異只有在 Namespace 命名不一樣而已，可以透過 `skoepo` 進行對照
+這樣兩邊的 Container Images 內容會是一模一樣的，差異只有在 Namespace 命名不一樣而已，可以透過`skopeo` 進行對照
 
 2. 在不同倉庫裡，相同 Namespace 命名可以有相同 Image 命名，譬如下列狀況
 
@@ -89,7 +89,7 @@ ISO 8601 (YYYYMMDD) |myimage:20200201
 這邊直接引用 [What's Wrong With The Docker :latest Tag?][1] 的文章，寫的蠻直白的，摘要如下：
 
 1. `:latest` 只是一個標籤 (Latest is Just a Tag)
-2. `:latest` 不會自動更新 (Latest is Not Dynbamic)
+2. `:latest` 不會自動更新 (Latest is Not Dynamic)
 3. 預設狀況下，`:latest` 很容易被覆蓋掉 (Latest is Easily Overwritten By Default)
 4. `:latest` 本身不具備任何描述性，不易生產使用 (Latest is Not Descriptive and Hard to Work With)
 
@@ -102,6 +102,8 @@ ISO 8601 (YYYYMMDD) |myimage:20200201
 公用的標籤可以取名為 `stable`，或者是直接依照 [語意化版本 Semantic Versioning 2.0.0][4] 進行命名
 
 個人經驗上，多數沒有什麼需要版本化命名的需求，預設都是採用 `ISO 8601 (YYYYMMDD)` 當作標籤名，既可以確保不會重複標籤，也可以直觀理解版本意義
+
+譬如像 [pichuang/debug-container](https://quay.io/repository/pichuang/debug-container?tab=tags) 所呈現的樣子
 
 ### Q6: 所以 latest 是不是應該要完全被禁止?
 
