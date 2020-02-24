@@ -18,4 +18,6 @@ date: 2019-02-23 23:22:34
   * [Linkedin](https://www.linkedin.com/in/phil-huang-09b09895/)
   * [SpeakerDeck](http://speakerdeck.com/pichuang)
 
+![](/images/phil_huang_speaker.png)
+
 Email : pichuang [@] pichuang.com.tw
