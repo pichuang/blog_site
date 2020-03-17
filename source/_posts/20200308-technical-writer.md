@@ -25,7 +25,7 @@ date: 2020-03-08 00:16:00
 ## 推薦使用套路?
 
 - 語法選擇: `Markdown`，基本上沒有什麼懸念，Markdown 文字移植性太好，到哪裡基本上都可以用，但缺點就是對於圖片處理不好，但身為一個大部分都是寫字居多的，沒什麼問題
-- 建立靜態網站: 現在要搞一個自己的 Blog 已經不是很麻煩的事情了，也不需要用到 Wordpress / Dropul 這種 CMS 比較大的等級，有個人 GitHub 帳號就可以建立靜態網頁，搭配 [Hexo][3] 或 [Jekyll][2] 或 [Hugo][1] 三個選一個使用，我是用 `Hexo`
+- 建立靜態網站: 現在要搞一個自己的 Blog 已經不是很麻煩的事情了，也不需要用到 Wordpress / Drupal 這種 CMS 比較大的等級，有個人 GitHub 帳號就可以建立靜態網頁，搭配 [Hexo][3] 或 [Jekyll][2] 或 [Hugo][1] 三個選一個使用，我是用 `Hexo`
 - 申請個人域名: `.tw` 結尾的應該不會太貴我記得，我個人是選 `Gandi` 域名商 (感恩 哈維 讚嘆 Haway)，掛載到 Cloudflare 的話就有 SSL 的連線能力囉
 
 ## 給工程師看的純技術文件寫作風格選擇?
@@ -62,7 +62,7 @@ date: 2020-03-08 00:16:00
 
 個人是認為這是標準的英文寫作課 XD，對我還蠻有用的，以後可以嘗試寫點英文技術文件下來
 
-除了教學網站，連基礎的技術文件網站模板都 OpenSource 了，可以參考以 `Hugo` 為底的 [google/docsy][18] 專案，此外還弄了個 [Season of Docs][13] 供對於這類技術作家們的開源社群，不得不說 Google 真的是蠻有心的，整套包好好
+除了教學網站，連基礎的技術文件網站模板都 OpenSource 了，可以參考以 `Hugo` 為底的 [google/docsy][18] 專案或者是相當知名的 [mkdocs][22] / [VuePress][23]，此外還弄了個 [Season of Docs][13] 供對於這類技術作家們的開源社群，不得不說 Google 真的是蠻有心的，整套包好好
 
 ## 寫作工具?
 
@@ -110,3 +110,5 @@ date: 2020-03-08 00:16:00
 [19]: https://redhat-documentation.github.io/community-collaboration-guide/
 [20]: https://redhat-documentation.github.io/modular-docs/
 [21]: https://developers.redhat.com/
+[22]: https://www.mkdocs.org/
+[23]: https://vuepress.vuejs.org/

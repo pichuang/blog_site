@@ -8,7 +8,7 @@ date: 2020-03-07 00:16:00
 
 常常聽到客戶說他們的系統很慢，但說慢在哪裡也沒有一個很明確的說明，這邊提供一個簡單的做法，當遇到`當下`系統很慢的時候，可以有個`數字判斷`的依據尋找瓶頸點 (Bound)，這篇單純就 OS 層面說明，不討論應用程式等級的效能問題
 
-![](http://www.brendangregg.com/Perf/linux_observability_tools.png)
+![](http://www.brendangregg.com/Perf/linux_observability_sar.png)
 
 <!--more-->
 
