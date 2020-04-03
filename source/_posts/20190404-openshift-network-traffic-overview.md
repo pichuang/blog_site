@@ -92,6 +92,10 @@ Technology | Netfilter rules | Squid | HAProxy
 
 希望這篇能幫助大家用高視角的方式來理解整個 Red Hat OpenShift v3.11 網路流量走向
 
+## Appendix: 針對 OpenShift v3 版本之 F5 設定
+
+![](/images/ocp3_f5.png)
+
 
 ## References
 - [Cisco Data Center Spine-and-Leaf Architecture: Design Overview White Paper][1]

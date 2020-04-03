@@ -164,9 +164,6 @@ IMAGE                                                                           
 
 在 RHCOS 中，你還是可以使用 `systemd` 或 `journalctl` 做觀察性質的操作
 
-> WARNING: Direct SSH access to machines is not recommended; instead,
-make configuration changes via `machineconfig` objects
-
 ```bash
 [root@compute-0 ~]# systemctl status crio
 ● crio.service - Open Container Initiative Daemon
@@ -190,8 +187,7 @@ make configuration changes via `machineconfig` objects
 
 ### 6. 修改 RHCOS 設定檔
 
-> WARNING: Direct SSH access to machines is not recommended; instead,
-make configuration changes via `machineconfig` objects
+> WARNING: Direct SSH access to machines is not recommended; instead, make configuration changes via `machineconfig` objects
 
 [Choosing how to configure RHCOS - Red Hat OpenShift 4.3][12] 指出 3 種修改方向
 
