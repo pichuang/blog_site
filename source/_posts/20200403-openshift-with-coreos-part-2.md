@@ -162,7 +162,7 @@ spec:
 1. clusterNetwork 也就是 Pod 實際上能使用的 IP 為 10.128.0.0/14，共 [`262142` 個 Pod IP][5]
 2. networkType 也就是 CNI Plugin 的名稱，這邊是使用原生的 `OpenShift SDN`
 3. serviceNetwork 也就是 Kubernetes Service 可以使用的 IP 為 172.30.0.0/16，共可以開啟 [`65534` 個 Service IP][6]
-4. hostPrefix 比較難理解，主要是代表`每一個節點 (Node) 所能拿到的 Pod IP 為多少`，例如這邊是 `/23`，所以每個節點可以運行約 `500` 左右的 Pod，若改成 `/22`，則每個節點可運行約 `1000` 左右的 Pod。有些人會問夠不夠用，其實就預設 [OpenShift 4.3 - Recommended host practices][7] 上，一個節點的上限是跑 `kubeletConfig.maxPods: 250`，最高 250，所以撞不到天花板
+4. hostPrefix 比較難理解，主要是代表`每一個節點 (Node) 所能拿到的 Pod IP 為多少`，例如這邊是 `/23`，所以每個節點可以運行 [`510` 個 Pod IP][9] 的 Pod，若改成 `/22`，則每個節點可運行約 `1000` 左右的 Pod。有些人會問夠不夠用，其實就預設 [OpenShift 4.3 - Recommended host practices][7] 上，一個節點的上限是跑 `kubeletConfig.maxPods: 250`，最高 250，所以撞不到天花板
 
 ## 結語
 
@@ -183,3 +183,4 @@ spec:
 [6]: http://jodies.de/ipcalc?host=172.30.0.0&mask1=16&mask2=
 [7]: https://docs.openshift.com/container-platform/4.3/scalability_and_performance/recommended-host-practices.html#recommended-node-host-practices_
 [8]: https://www.youtube.com/watch?v=Kx110kqoHo0&list=PLaR6Rq6Z4IqeGIzsnWX1ifTLwJaYBQSUs&index=39&t=0s
+[9]: http://jodies.de/ipcalc?host=10.128.0.0&mask1=23&mask2=
