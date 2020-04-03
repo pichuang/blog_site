@@ -126,9 +126,9 @@ Status:
 CoreDNS 主要處理 OpenShift 內部服務的名稱解析，包含以下 4 類:
 
 1. cluster.local
-2. <project>.cluster.local
-3. <service>.<project>.cluster.local
-4. <pod>.<project>.cluster.local
+2. `<project>`.cluster.local
+3. `<service>`.`<project>`.cluster.local
+4. `<pod>`.`<project>`.cluster.local
 
 ### 了解當下網路資訊 - Cluster Network Operator
 
