@@ -109,7 +109,7 @@ OpenShift Router 是採用 `hostnetwork` 的方式建立，所以每一台主機
 想了解於 OpenShift 對於 Ingress Controller 的實作 `Router` 可以參考 [Router Overview - OpenShift v3.11 Docs][5]
 
 ### 使用 Service Type: `LoadBalancer`
-這個功能僅限於公有雲，如果是 on-premise 的就只能自己實作或者是不要使用
+正常使用下，這功能僅限於公有雲，但在 OpenShift 裡面有支援一個功能叫做 `ingress IP`，效果就是給 OpenShift 僅一個特定的網段 (Subnet) 之後，可以從中選取任一 IP，並使用 `type: LoadBalancer` 對外揭露服務，詳細可以參考 [Using Ingress to Expose Services][9]
 
 ## Summary
 在 OpenShift 的環境之下
@@ -117,9 +117,9 @@ OpenShift Router 是採用 `hostnetwork` 的方式建立，所以每一台主機
 1. 對於 http/https 的服務，對外透過 Ingress Controller: OpenShift Router 揭露 FQDN 讓外面使用
 2. 對於非 http/https 的服務，如 mysql，有下列兩種做法:
   1. 若不需要提供對外服務，僅使用 `ClusterIP` 在內部進行使用
-  2. 若需要提供對外服務，有下列兩種做法:
+  2. 若需要提供對外服務，有下列三種做法:
     1. Single Instance，不需要在多個 node 上面運行，使用 `hostnetwork` 或 `hostPort`
-    2. Multiple Instance，需要在多個 node 上面運行，做到 scale-out 的效果，則使用 `nodePort` 為佳
+    2. Multiple Instance，需要在多個 node 上面運行，做到 scale-out 的效果，則使用 `ingress IP` 為佳
 
 
 ## References
@@ -131,6 +131,7 @@ OpenShift Router 是採用 `hostnetwork` 的方式建立，所以每一台主機
 - [Router Overview - OpenShift v3.11 Docs][5]
 - [深度理解：Openshift端口方式全解析 - 大衛分享][6]
 - [OpenShift 网络分析-(容器网络选型和方案建议) - 大衛分享][7]
+- [Using Ingress to Expose Services][9]
 
 [1]: https://blog.csdn.net/huqigang/article/details/76428017
 [2]: https://www.slideshare.net/erhwenkuo/cncf-k8snetworkpart1/erhwenkuo/cncf-k8snetworkpart1
@@ -140,3 +141,4 @@ OpenShift Router 是採用 `hostnetwork` 的方式建立，所以每一台主機
 [6]: https://cloud.tencent.com/developer/article/1101219
 [7]: https://cloud.tencent.com/developer/article/1375943
 [8]: https://www.slideshare.net/erhwenkuo/cncf-k8snetwork02-137938815
+[9]: http://v1.uncontained.io/playbooks/operationalizing/ingress.html

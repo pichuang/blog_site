@@ -8,7 +8,7 @@ date: 2020-04-03 00:16:00
 
 上個月寫了一篇愛的走馬看花 [愛的走馬看花 Red Hat CoreOS 與 Red Hat OpenShift Part 1][1]，繼續逛下去
 
-第二天比較偏向是 Red Hat OpenShift Infrastrcuture 除錯層面的閒逛，有些 Kubernetes 應該是不能直接套用的，譬如像是 `oc adm` 這類的指令，但是我記得最近新版的 Kubernetes 好像有 `kubectl debug` 的指令可以用了，但不知道效果是不是一樣的
+第二天比較偏向是 Red Hat OpenShift Infrastrcuture 除錯層面的閒逛，有些 Kubernetes 應該是不能直接套用的，譬如像是 `oc adm`、`oc debug` 這類的指令，但是我記得新版的 Kubernetes 好像有 `kubectl debug` 的指令可以用了，但不知道效果是不是一樣的
 
 另外開頭我沒梗圖了，故附上一個我覺得蠻不錯的影片 [Deploying a Windows Server 2019 virtual machine using OpenShift Virtualization][8]
 
@@ -134,9 +134,9 @@ CoreDNS 主要處理 OpenShift 內部服務的名稱解析，包含以下 4 類:
 
 通常來說，建立 OpenShift 需要三段網段，而所有 IP 網段都不能重複，分別是下列:
 
-1. Node CIDR：給實體主機用的 IP
-2. Service CIDR：給 Kubernetes Service 使用的 IP，對照設定檔名字為 `serviceNetwork`
-3. Pod CIDR：Pod 實際上會拿到的 IP，對照設定檔名字為 `clusterNetwork`
+1. Node Subnet：給實體主機用的 IP
+2. Service Subnet：給 Kubernetes Service 使用的 IP，對照設定檔名字為 `serviceNetwork`
+3. Pod Subnet：Pod 實際上會拿到的 IP，對照設定檔名字為 `clusterNetwork`
 
 如果想要確認當前的網路設定資訊，可以參考下面作法
 

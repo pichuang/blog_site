@@ -5,7 +5,8 @@ tags:
   - speach
 date: 2019-02-23 23:23:30
 ---
-## 2020 (Total: 4)
+## 2020 (Total: 5)
+* 20200311, [【IBM 雲講堂】第四集：彈指搞定多雲管理](https://www.youtube.com/watch?v=y57XEQHYSJ8), Online Webinar, Taiwan
 * 20200225, [就是要跟你聊 Red Hat Ansible](https://www.digitimes.com.tw/edm/EDM_RedHat_20200225_Seminar.htm), Online Webinar, Taiwan
 * 20200213, SQL Server 2019 攜手 Red Hat OpenShift Container Platform 強強聯手打造企業級混合雲, [SQL Server 2019 與開源容器Kubernetes實戰營](https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x8850296abcd), Taiwan
 * 20200212, Red Hat Ansible 自動化應用, Red Hat Ansible策略產品交流會, Taiwan
