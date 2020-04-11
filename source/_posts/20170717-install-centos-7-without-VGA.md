@@ -4,10 +4,12 @@ title: Install CentOS 7 without VGA
 date: 2017-07-17 10:09:00
 updated: 2017-07-17 10:09:00
 tags:
-- headless
-- serial
-- headless
-- centos
+  - headless
+  - serial
+  - linux
+  - centos
+categories:
+  - linux
 ---
 
 ### Change timeout

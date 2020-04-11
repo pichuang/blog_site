@@ -1,8 +1,12 @@
 layout: post
 title: 成為一名技術留跡者
 author: Phil Huang
-tags: []
-categories: []
+tags:
+  - technical writer
+  - blogger
+  - misc
+categories:
+  - misc
 date: 2020-03-08 00:16:00
 ---
 

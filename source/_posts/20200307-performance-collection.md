@@ -1,8 +1,11 @@
 layout: post
 title: 尋找當下 Linux OS 效能瓶頸
 author: Phil Huang
-tags: []
-categories: []
+tags:
+  - linux
+  - performance
+categories:
+  - linux
 date: 2020-03-07 00:16:00
 ---
 

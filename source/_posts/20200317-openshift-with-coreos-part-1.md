@@ -1,8 +1,12 @@
 layout: post
 title: 愛的走馬看花 Red Hat CoreOS 與 Red Hat OpenShift Part 1
 author: Phil Huang
-tags: []
-categories: []
+tags:
+  - openshift4
+  - openshift
+  - container
+categories:
+  - openshift
 date: 2020-03-17 00:16:00
 ---
 

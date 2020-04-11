@@ -4,8 +4,9 @@ author: Phil Huang
 tags:
   - pki
   - ssl
+  - linux
 categories:
-  - infra
+  - linux
 date: 2020-02-03 16:11:00
 ---
 

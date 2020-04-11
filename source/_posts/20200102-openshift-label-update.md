@@ -2,8 +2,8 @@ layout: post
 title: Red Hat OpenShift 4 特定節點 Label 更新
 author: Phil Huang
 tags:
+  - openshift4
   - openshift
-  - label
 categories:
   - openshift
 date: 2020-01-02 10:45:00

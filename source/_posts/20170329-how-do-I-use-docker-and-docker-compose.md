@@ -4,10 +4,12 @@ title: How do I use docker and docker-compose
 date: 2017-03-29 09:34:36
 updated: 2017-03-29 09:34:36
 tags:
-- infra
-- linux
-- docker
-- docker-compose
+  - infra
+  - linux
+  - docker
+  - docker-compose
+categories:
+  - container
 ---
 
 ## Objective

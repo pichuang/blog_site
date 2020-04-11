@@ -3,8 +3,10 @@ title: 2019 大改造宅宅雲架構系列文-1 總綱及裝備清單
 author: Phil Huang
 tags:
   - linux
-categories:
   - infra
+  - homecloud
+categories:
+  - homecloud
 date: 2019-11-14 23:39:00
 ---
 最近這兩三年發現技術越變越快，而且還越變越多，等著別人給我資源學習，不如還是靠自己準備資源來做一些 Lab 性質的測試，但台北花費真的是太高了，薪水不太夠付電費，所以為了節省電費救救錢包君，所以把整個家裡的宅宅雲改造了一下。

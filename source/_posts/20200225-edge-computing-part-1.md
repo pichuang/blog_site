@@ -3,6 +3,10 @@ title: 邊緣計算大哉問 Part 1
 author: Phil Huang
 date: 2020-02-25 21:33:18
 tags:
+  - edge computing
+  - telco
+categories:
+  - telco
 ---
 邊緣計算 (Edge Computing)，相信大家看了一陣子的相關文章、場景和解決方案，但有沒有覺得...好像每個人講的邊緣計算都有點不一樣，本文就是要針對邊緣計算的幾個常見問題來進行介紹，但我的觀點是`以自主自建的角度`作為討論，不是以公有雲角度為觀點的邊緣計算解釋
 

@@ -3,6 +3,10 @@ title: 2019 年度個人回顧
 author: Phil Huang
 date: 2020-01-01 12:55:32
 tags:
+  - misc
+  - annual
+categories:
+  - misc
 ---
 完整的日曆年過了，來個年度回顧紀錄
 

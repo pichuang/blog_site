@@ -2,9 +2,10 @@ layout: post
 title: Bandwidth & Throughput
 author: Phil Huang
 tags:
-  - misc
+  - networking
+  - telco
 categories:
-  - network
+  - telco
 date: 2019-05-27 11:42:00
 ---
 ![](/images/throughput-bandwidth.png)

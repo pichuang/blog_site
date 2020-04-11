@@ -1,8 +1,10 @@
 layout: post
 title: Cloud Native Network Functions (CNF) Testbed 心得感想
 tags:
-  - cncf
-  - nfv
+  - cnf
+  - container
+categories:
+  - openshift
 date: 2019-03-07 22:04:00
 udpated: 2019-03-07 22:04:12
 ---

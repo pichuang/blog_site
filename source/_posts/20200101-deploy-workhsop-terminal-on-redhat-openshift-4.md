@@ -2,8 +2,9 @@ layout: post
 title: 部署 Workshop Terminal 於 Red Hat OpenShift 4
 author: Phil Huang
 tags:
+  - openshift4
   - openshift
-  - terminal
+  - web-console
 categories:
   - openshift
 date: 2020-01-01 13:08:00

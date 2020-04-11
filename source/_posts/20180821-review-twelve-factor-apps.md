@@ -6,7 +6,7 @@ tags:
   - container
   - 12apps
 categories:
-  - openshift
+  - container
 date: 2018-08-21 15:00:00
 ---
 

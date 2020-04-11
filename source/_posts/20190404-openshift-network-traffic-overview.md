@@ -3,6 +3,7 @@ title: Red Hat OpenShift v3.11 東西南北向網路探討
 author: Phil Huang
 tags:
   - redhat
+  - openshift3
   - openshift
   - networking
 categories:

@@ -4,9 +4,11 @@ title: SnapRoute FlexSwitch
 date: 2017-03-02 01:40:34
 updated: 2017-03-02 01:40:34
 tags:
-- sdn
-- snaproute
-- flexswitch
+  - sdn
+  - snaproute
+  - flexswitch
+categories:
+  - telco
 ---
 
 ![SnapRoute Logo](https://1v51ha1y9z9f2hpq55t67p7a3u-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/snaproute-logo-2016.jpg)

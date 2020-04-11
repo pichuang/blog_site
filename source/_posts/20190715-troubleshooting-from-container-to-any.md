@@ -3,9 +3,11 @@ title: Troubleshooting from Container to Any
 author: Phil Huang
 tags:
   - openshift
+  - openshift4
+  - openshift3
   - container
 categories:
-  - openshfit
+  - container
 date: 2019-07-15 00:12:00
 ---
 建立好一座 Kubernetes / OpenShift 集群後，大部分的疑難排解文章都是教你如何從 Kubernetes / OpenShift 的角度，透過 Kubernetes 的 `kubectl` 或 OpenShift 的 `oc` 指令來進行一系列的偵查，而這個查詢的結果都是基於 `kube-apiserver` 為核心的結果，中間已經抽象過很多層，距離底層資訊已有段距離。

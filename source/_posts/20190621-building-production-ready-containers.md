@@ -4,7 +4,7 @@ author: Phil Huang
 tags:
   - container
 categories:
-  - openshift
+  - container
 date: 2019-06-20 17:37:00
 ---
 ![](/images/rhel8-logo.jpg)

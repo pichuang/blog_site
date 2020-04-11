@@ -5,10 +5,12 @@ date: 2017-01-24 21:51:47 +0800
 updated: 2017-01-24 00:00:00 +0800
 description: ""
 tags:
-- infra
-- vmware
-- intel
-- driver
+  - infra
+  - vmware
+  - intel
+  - driver
+categories:
+  - infra
 ---
 
 ## Objective

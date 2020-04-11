@@ -4,10 +4,12 @@ title: Install i40e driver into VMWare ESXi
 date: 2017-03-31 16:06:07
 updated: 2017-03-31 16:06:07
 tags:
-- infra
-- vmware
-- intel
-- driver
+  - infra
+  - vmware
+  - intel
+  - driver
+categories:
+  - misc
 ---
 
 ## Objective

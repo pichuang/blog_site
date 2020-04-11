@@ -4,8 +4,10 @@ title: 'Windows 7 USB Download tool'
 date: 2014-07-12 13:13
 comments: true
 tags:
-- infra
-- win7
+  - infra
+  - win7
+categories:
+  - infra
 ---
 
 現在製作 win7 USB 安裝碟變得十分容易, 只要下載 [Windows 7 USB Download Tool](http://images2.store.microsoft.com/prod/clustera/framework/w7udt/1.0/en-us/Windows7-USB-DVD-tool.exe) 把 iso 放進去即可

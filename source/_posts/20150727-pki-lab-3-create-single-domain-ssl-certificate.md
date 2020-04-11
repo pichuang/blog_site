@@ -5,9 +5,11 @@ description: ""
 date: 2015-07-27 00:00:00 +0800
 updated: 2015-07-27 00:00:00 +0800
 tags:
-- infra
-- easyrsa
-- pki
+  - infra
+  - easyrsa
+  - pki
+categories:
+  - linux
 ---
 
 採用 ```easyrsa``` 來建立 PKI CA, 必需要有 Root CA, 可參考 [PKI Lab$1 Create Root CA](http://blog.pichuang.com.tw/pki-lab-1-create-root-ca/) 做建立的動作

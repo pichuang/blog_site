@@ -5,11 +5,13 @@ date: 2017-01-09 11:19:45 +0800
 updated: 2017-01-09 00:00:00 +0800
 description: ""
 tags:
-- sdn
-- ofdpa
-- ovs-ofctl
-- queue
-- openflow
+  - sdn
+  - ofdpa
+  - ovs-ofctl
+  - queue
+  - openflow
+categories:
+  - infra
 ---
 
 (Working...)

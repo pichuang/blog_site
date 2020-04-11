@@ -3,8 +3,10 @@ title: Red Hat OpenShift and VMWare NSX-T 架構點評
 date: 2019-03-17 20:40:52
 udpated: 2019-03-17 20:40:52
 tags:
-  - openshift
+  - openshift3
   - nsx-t
+  - vmware
+  - redhat
 categories:
   - openshift
 ---

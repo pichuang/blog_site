@@ -3,8 +3,10 @@ title: 2019 大改造宅宅雲架構系列文-4 pfSense
 author: Phil Huang
 tags:
   - linux
-categories:
   - infra
+  - homecloud
+categories:
+  - homecloud
 date: 2019-11-16 16:11:00
 ---
 先前工作太忙、失戀打擊過大，以致懷疑人生，導致有陣子沒寫文章，最近 Red Hat 贊助小弟來魚尾獅王國上課，趁空擋把長久以來用的一些技術經驗寫下來分享給大家，[2019 大改造宅宅雲架構系列文 快速傳送門][1]，歡迎大家把自己 HomeLab/HomeCloud 的經驗分享出來蕉流蕉流

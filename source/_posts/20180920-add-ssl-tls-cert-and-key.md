@@ -4,8 +4,9 @@ author: Phil Huang
 tags:
   - openssl
   - rhel
+  - ssl
 categories:
-  - rhel
+  - linux
 date: 2018-11-20 14:13:00
 ---
 ## 動機

@@ -7,7 +7,7 @@ tags:
   - oas
   - openapi
 categories:
-  - openapi
+  - misc
 ---
 
 ## OpenAPI Specification, OAS

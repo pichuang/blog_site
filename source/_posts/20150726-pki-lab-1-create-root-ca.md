@@ -5,9 +5,11 @@ description: ""
 date: 2015-07-26 00:00:00 +0800
 updated: 2015-07-26 00:00:00 +0800
 tags:
-- infra
-- easyrsa
-- pki
+  - infra
+  - easyrsa
+  - pki
+categories:
+  - linux
 ---
 
 採用 ```easyrsa``` 來建立 PKI CA

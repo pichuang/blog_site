@@ -6,8 +6,10 @@ date: 2016-05-14 00:00:00 +0800
 updated: 2017-04-19 00:00:00 +0800
 category: sdn
 tags:
-- sdn
-- onos
+  - sdn
+  - onos
+categories:
+  - infra
 ---
 
 ## 前言

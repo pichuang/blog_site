@@ -7,7 +7,7 @@ tags:
   - intel
   - nfv
 categories:
-  - openstack
+  - infra
 date: 2019-04-21 07:54:00
 ---
 承上篇 [導讀 Intel Select Solutions: Red Hat OpenShift Container Platform][1]，本篇同時收錄 Red Hat OpenStack 13 代號 Queens 的推薦硬體 BOM 表 [Intel® Select Solutions for NFVI v2 with Red Hat OpenStack® Platform (OSP) Release 13][2]，然而想要了解其他 Intel Select Solutions for NFVi 的方案可以參考 [Intel® Select Solutions for NFVI][4]

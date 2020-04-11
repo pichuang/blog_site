@@ -2,7 +2,12 @@ layout: post
 title: 容器平台強固化保護思路
 author: Phil Huang
 tags:
+  - openshift3
+  - openshift4
   - openshift
+  - cni
+  - security
+  - harden8
   - container
 categories:
   - openshift

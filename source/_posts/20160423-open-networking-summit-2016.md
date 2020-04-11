@@ -5,8 +5,10 @@ description: "Open Networking Summit 大進擊"
 date: 2016-04-23 00:00:00 +0800
 updated: 2016-04-23 00:00:00 +0800
 tags:
-- event 
-- ons
+  - event
+  - ons
+categories:
+  - misc
 ---
 
 ### 前言

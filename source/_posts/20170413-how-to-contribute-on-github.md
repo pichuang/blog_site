@@ -4,8 +4,10 @@ title: How to contribute on GitHub
 date: 2017-04-13 19:32:57
 updated: 2017-04-13 19:32:57
 tags:
-- misc
-- github
+  - misc
+  - github
+categories:
+  - misc
 ---
 
 Fork from [Github 發 Pull Request & 貢獻流程速查/timdream](https://gist.github.com/timdream/5968469)

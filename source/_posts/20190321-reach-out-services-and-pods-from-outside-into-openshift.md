@@ -3,6 +3,8 @@ title: 從 Red Hat OpenShift 外部訪問 Services 或 Pods
 author: Phil Huang
 tags:
   - redhat
+  - openshift3
+  - openshift4
   - openshift
   - router
   - services

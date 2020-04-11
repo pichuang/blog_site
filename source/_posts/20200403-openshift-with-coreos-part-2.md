@@ -1,8 +1,11 @@
 layout: post
 title: 愛的走馬看花 Red Hat CoreOS 與 Red Hat OpenShift Part 2
 author: Phil Huang
-tags: []
-categories: []
+tags:
+  - openshift4
+  - container
+categories:
+  - openshift
 date: 2020-04-03 00:16:00
 ---
 
@@ -19,7 +22,7 @@ date: 2020-04-03 00:16:00
 ## 走馬看花之旅: 第二天
 ### 透過 OpenShift 顯示各節點上的特定服務 Log
 
-Red Hat OpenShift 4 之後的服務，放在 Red Hat CoreOS (後面簡稱 RHCOS) 裡面運行的服務，絕大部分都是都是以容器 (Container) 的方式運行，但還是有 16 個服務是透過 `systemd` 運行的，下面列舉服務且標注對維運上比較重要的服務
+Red Hat OpenShift 4 之後的服務，放在 Red Hat CoreOS (後面簡稱 RHCOS) 裡面運行的服務，絕大部分都是都是以容器 (Container) 的方式運行，但還是有 18 個服務是透過 `systemd` 運行的，下面列舉服務且標注對維運上比較重要的服務
 
 ```
 $ oc debug node/compute-0
@@ -29,24 +32,34 @@ To use host binaries, run `chroot /host`
 Pod IP: 10.0.97.4
 If you don't see a command prompt, try pressing enter.
 sh-4.2# chroot /host
-sh-4.4# systemctl list-units --type=services --state=running
+sh-4.4# systemctl list-units --type=service --state=running
 
-auditd.service
-chronyd.service
-crio.service <=
-dbus.service
-getty@tty1.service
-irqbalance.service
-kubelet.service <=
-NetworkManager.service
-polkit.service
-rpc-statd.service
-rpcbind.service
-serial-getty@ttyS0.service
-sshd.service <=
-systemd-journald.service <=
-systemd-logind.service
-systemd-udevd.service
+UNIT                     LOAD   ACTIVE SUB     DESCRIPTION
+auditd.service           loaded active running Security Auditing Service
+chronyd.service          loaded active running NTP client/server
+crio.service             loaded active running Open Container Initiative Daemon
+dbus.service             loaded active running D-Bus System Message Bus
+getty@tty1.service       loaded active running Getty on tty1
+irqbalance.service       loaded active running irqbalance daemon
+kubelet.service          loaded active running Kubernetes Kubelet
+NetworkManager.service   loaded active running Network Manager
+polkit.service           loaded active running Authorization Manager
+rpc-statd.service        loaded active running NFS status monitor for NFSv2/3 locking.
+rpcbind.service          loaded active running RPC Bind
+sshd.service             loaded active running OpenSSH server daemon
+sssd.service             loaded active running System Security Services Daemon
+systemd-journald.service loaded active running Journal Service
+systemd-logind.service   loaded active running Login Service
+systemd-udevd.service    loaded active running udev Kernel Device Manager
+vgauthd.service          loaded active running VGAuth Service for open-vm-tools
+vmtoolsd.service         loaded active running Service for virtual machines hosted on VMware
+
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+
+18 loaded units listed. Pass --all to see loaded but inactive units, too.
+To show all installed unit files use 'systemctl list-unit-files'.
 ```
 
 這邊值得一提的是，因為 RHCOS 內建還是有 `systemd-journald`，所以依然可以使用 `oc debug` 連進去節點後，下 `journalctl` 進行觀察 Log 的行為，但...只是要看個 Log 這些步驟太麻煩了，所以 OpenShift 有整了一個指令叫做 `oc adm node-logs`

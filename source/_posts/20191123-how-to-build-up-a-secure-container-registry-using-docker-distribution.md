@@ -4,7 +4,7 @@ author: Phil Huang
 tags:
   - container
   - registry
-  - 30m
+  - smart start
 categories:
   - container
 date: 2019-11-23 00:39:00

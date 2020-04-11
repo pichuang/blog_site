@@ -1,8 +1,13 @@
 layout: post
 title: '過了三年後的 NetDevOps '
 author: Phil Huang
-tags: []
-categories: []
+tags:
+  - netdevops
+  - telco
+  - ansible
+  - automation
+categories:
+  - telco
 date: 2020-02-29 22:28:00
 ---
 三年前(2017)，那時工作在 [Edgecore Network 上班][1]，經常接觸到各式各樣的網路設備，那時候看到一家新創公司 [Cumulus Networks][3] 開始推所謂的 NetDevOps 的概念，也就是利用組態管理系統 (Configuration Management) 去管理底下資料中心的 Switch / Router 確保不會有設定飄移 (Configuration Drift)，時間轉換到2020，我以個人角度來跟大家分享一下經歷

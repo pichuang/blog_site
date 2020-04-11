@@ -4,7 +4,7 @@ author: Phil Huang
 tags:
   - linux
 categories:
-  - infra
+  - homecloud
 date: 2019-11-16 02:03:00
 ---
 2019 大改造宅宅雲系列文來到第 3 篇，有興趣想看前面兩篇的可以參考：

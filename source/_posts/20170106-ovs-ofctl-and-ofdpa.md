@@ -4,11 +4,13 @@ title:  "OpenvSwitch ovs-ofctl and OF-DPA"
 date:   2017-01-06 13:42:10 +0800
 updated: 2017-03-21 00:00:00 +0800
 tags:
-- sdn
-- ovs
-- ofdpa
-- switch
-- ovs-ofctl
+  - sdn
+  - ovs
+  - ofdpa
+  - switch
+  - ovs-ofctl
+categories:
+  - infra
 ---
 
 ## Goal

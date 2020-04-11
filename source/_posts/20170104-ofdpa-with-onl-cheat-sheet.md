@@ -4,10 +4,12 @@ title:  "OF-DPA with ONL Cheat Sheet"
 date:   2017-01-04 10:42:10 +0800
 updated: 2017-01-04 00:00:00 +0800
 tags:
-- cicada
-- onl
-- ofdpa
-- sdn
+  - cicada
+  - onl
+  - ofdpa
+  - sdn
+categories:
+  - infra
 ---
 
 ## Environment

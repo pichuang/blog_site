@@ -7,7 +7,7 @@ tags:
   - teaming
   - network
 categories:
-  - rhel
+  - linux
 date: 2018-08-26 14:58:00
 ---
 

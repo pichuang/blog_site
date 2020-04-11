@@ -3,6 +3,7 @@ title: Red Hat OpenShift v3.11 儲存類型建議
 author: Phil Huang
 tags:
   - redhat
+  - openshift3
   - openshift
   - storage
 categories:

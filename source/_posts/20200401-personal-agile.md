@@ -1,8 +1,11 @@
 layout: post
 title: 一名解決方案架構師的自我敏捷
 author: Phil Huang
-tags: []
-categories: []
+tags:
+  - kanban
+  - agile
+categories:
+  - agile
 date: 2020-04-01 00:16:00
 ---
 
