@@ -2,7 +2,7 @@ layout: page
 title: Who is Phil Huang
 date: 2019-02-23 23:22:34
 ---
-> 黃秉鈞 (小飛機)，一名熱愛分享及交流有限所知的自宅工程師。
+> 黃秉鈞，社群暱稱小飛機，一名熱愛分享及交流有限所知的自宅工程師。
 
 ![](/images/phil_huang.png)
 
