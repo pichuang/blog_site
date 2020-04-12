@@ -7,6 +7,7 @@ tags:
 categories:
   - ansible
 date: 2019-06-18 10:29:00
+toc: true
 ---
 ![](/images/ansible-logo.png)
 

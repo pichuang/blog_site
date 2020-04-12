@@ -8,6 +8,7 @@ tags:
   - openapi
 categories:
   - misc
+toc: true
 ---
 
 ## OpenAPI Specification, OAS

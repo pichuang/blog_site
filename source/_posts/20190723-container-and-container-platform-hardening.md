@@ -12,6 +12,7 @@ tags:
 categories:
   - openshift
 date: 2019-07-23 23:59:00
+toc: true
 ---
 不知道各位看了這麼久的容器平台 (Container Platform) 技術，一聽到 Kubernetes 的反應，是如何在腦袋中反射出技術堆棧圖 (Technology Stack) 的呢？今天要來分享一下筆者針對於 Kubernetes 容器平台，如何看待加固 (Hardening) 及系統基礎保護的技術觀點，本篇因沒有涉及到資安弱掃，故以強固化 (Hardening) 作為出發點
 

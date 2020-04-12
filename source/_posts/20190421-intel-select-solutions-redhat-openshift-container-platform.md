@@ -8,6 +8,7 @@ tags:
 categories:
   - openshift
 date: 2019-04-21 01:54:00
+toc: true
 ---
 最近 Intel 不知道吹什麼風，發了一個 [Intel® Select Solutions for Red Hat OpenShift Container Platform - April, 2019][1] 出來，這篇文章蠻適合當作 Hardware Configuration 的指南進行基礎探討
 

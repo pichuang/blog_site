@@ -8,6 +8,7 @@ tags:
 categories:
   - openshift
 date: 2020-03-17 00:16:00
+toc: true
 ---
 
 誠如大家所知，因爲種種技術及非技術因素上 - [Why Red Hat is investing in CRI-O and Podman][1]，OpenShift 4 底層有兩個蠻大的更新

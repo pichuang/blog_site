@@ -7,6 +7,7 @@ tags:
 categories:
   - telco
 date: 2020-03-02 00:16:00
+toc: true
 ---
 前幾天寫了篇 [邊緣計算大哉問 Part 1 ][1]，最後面有提到要提到實務面的事情，但在提到實務面的規劃前，想先跟大家介紹一下現在場上與 Edge Computing 相關的開源軟體 (Open Source Software, OSS) 大型社群，內文是我本人自己的觀點，一定有偏頗，所以各位看官請自己拿捏
 

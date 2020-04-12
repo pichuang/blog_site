@@ -11,6 +11,7 @@ tags:
 categories:
   - openshift
 date: 2019-04-05 02:14:00
+toc: true
 ---
 
 本導讀文基於 2019/1/25 [OpenShift Commons Telco SIG Mtg Jan 25 2019 with Guest Speakers Juniper Networks][1] 公開內容作為基礎來分享心得

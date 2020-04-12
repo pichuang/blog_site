@@ -7,6 +7,7 @@ tags:
 categories:
   - openshift
 date: 2020-01-02 10:45:00
+toc: true
 ---
 以前的[演講 - 那些年的 OpenShift 3.11 容器平台技術選型_20190122
 ][2]有分享過，Red Hat OpenShift 對於節點的角色有分 3 種：

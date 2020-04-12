@@ -10,6 +10,7 @@ tags:
 categories:
   - ansible
 date: 2019-03-28 09:47:00
+toc: true
 ---
 最近[強者我朋友 eanylin 哥][5]分享個整合的 Ansible Tower 實際整合案例，推薦用兩倍速看
 

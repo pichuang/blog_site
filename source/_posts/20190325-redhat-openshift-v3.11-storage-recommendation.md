@@ -9,6 +9,7 @@ tags:
 categories:
   - openshift
 date: 2019-03-25 00:02:00
+toc: true
 ---
 
 在小弟先前的演講中 [20190218_OpenShift Storage 架構思考][2]，有提到針對每個容器在容器平台 (Kubernetes / OpenShift / ...) 上，所儲存的資料會分為三大種架構類型：

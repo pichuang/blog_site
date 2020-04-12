@@ -12,6 +12,7 @@ tags:
 categories:
   - openshift
 date: 2019-03-21 14:16:00
+toc: true
 ---
 Red Hat OpenShift v3.11 架構裡網路主要分為三大塊:
 1. Hosts subnet

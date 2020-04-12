@@ -7,6 +7,7 @@ tags:
   - annual
 categories:
   - misc
+toc: true
 ---
 完整的日曆年過了，來個年度回顧紀錄
 

@@ -8,6 +8,7 @@ tags:
   - ansible
 categories:
   - ansible
+toc: true
 ---
 
 ## NetDevOps = Networking + DevOps

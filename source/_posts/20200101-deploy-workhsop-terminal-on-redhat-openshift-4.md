@@ -8,6 +8,7 @@ tags:
 categories:
   - openshift
 date: 2020-01-01 13:08:00
+toc: true
 ---
 當你出門在外，遇到要帶一群人進行 Workshop，但學員的電腦各種無法安裝 Putty、XShell，該怎麼辦? 
 

@@ -7,6 +7,7 @@ tags:
 categories:
   - agile
 date: 2020-04-01 00:16:00
+toc: true
 ---
 
 要來進行今天的分享之前，我得要先來推一下 David Ko 前輩 [David Ko Learning Journey][5]，當初研究所開始接觸 Scurm / Agile 等等的都是主要都是從這位前輩上學習到相關經驗的，直到現在工作一陣子了，觀念還是非常有用，大推

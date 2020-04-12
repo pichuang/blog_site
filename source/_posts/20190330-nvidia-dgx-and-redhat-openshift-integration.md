@@ -13,6 +13,7 @@ tags:
 categories:
   - openshift
 date: 2019-03-30 00:30:00
+toc: true
 ---
 一日江湖行走，路上撿到一個問題：`Nvidia DGX 要怎麼跟透過容器化調度應用呀?` 然後我就開始了一連串的研究探索...
 

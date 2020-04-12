@@ -9,6 +9,7 @@ tags:
   - redhat
 categories:
   - openshift
+toc: true
 ---
 
 最近 VMWare NSX-T 出了一篇跟 Red Hat OpenShift 3.11 的[整合文章][1]及[影片][2]，下圖的整體技術架構上是十分靠譜的，但有些點是可以另外加入考慮的，但本文不贅述，

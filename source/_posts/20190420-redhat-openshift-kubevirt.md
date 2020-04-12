@@ -9,6 +9,7 @@ tags:
 categories:
   - openshift
 date: 2019-04-20 02:24:00
+toc: true
 ---
 ![](https://avatars2.githubusercontent.com/u/18700703?s=280&v=4)
 

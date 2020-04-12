@@ -7,6 +7,7 @@ tags:
 categories:
   - openshift
 date: 2020-04-03 00:16:00
+toc: true
 ---
 
 上個月寫了一篇愛的走馬看花 [愛的走馬看花 Red Hat CoreOS 與 Red Hat OpenShift Part 1][1]，繼續逛下去

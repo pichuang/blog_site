@@ -7,6 +7,7 @@ tags:
 categories:
   - misc
 date: 2020-01-31 10:45:00
+toc: true
 ---
 
 想必常使用 RESTful API 開發的人對於好看好讀的 API Docs 有相當程度的需求，而眾多開源軟體中，最知名的框架就是 `Swagger` 這個框架，什麼？你說你不知道這是什麼，我相信你一定多多少少應該都有看過這個蠻經典的 [petstore.swagger.io][2] API 文件，本文就是要來梳理一下這 Swagger UI 要怎麼放到自家，用容器運行非常簡單

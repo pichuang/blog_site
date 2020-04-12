@@ -8,6 +8,7 @@ tags:
 categories:
   - homecloud
 date: 2019-11-15 13:21:00
+toc: true
 ---
 承上篇 [2019 大改造宅宅雲架構系列文-1 - Phil Workspace][1] 所提到一些關於核心裝備的列舉和使用理由，本篇會比較著重在宅宅雲塔式 Server 的介紹
 

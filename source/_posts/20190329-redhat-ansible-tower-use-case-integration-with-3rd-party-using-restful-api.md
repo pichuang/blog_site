@@ -9,6 +9,7 @@ tags:
 categories:
   - ansible
 date: 2019-03-29 02:31:00
+toc: true
 ---
 有些長官看完 [Red Hat Ansible Tower 常見使用案例: 跨多平台設備管理][4] 後說:
 `Ansible Tower 看起來好棒棒，但自家已經有自有的 Service Catalog，而我就是不想用 Ansible Tower 當作我的第一層服務，那怎麼辦？`

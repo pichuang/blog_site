@@ -6,6 +6,7 @@ tags:
 categories:
   - container
 date: 2020-02-01 03:45:00
+toc: true
 ---
 
 隨著使用容器 (Container) 技術也有段時間了，多數人人生第一次使用 Container 應該都會嘗試下，`docker pull docker.io/library/centos` 的指令試試，那到底 `docker.io/library/centos` 有什麼玄機，今天想分享一下關於容器倉庫 (Container Repository/Registry) 的觀念探討，文章內的操作會以 `podman`、`skopeo` 為主

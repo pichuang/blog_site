@@ -8,6 +8,7 @@ tags:
   - sds
 categories:
   - infra
+toc: true
 ---
 本文主要是以 Red Hat Ceph Storage (RHCS) 及依據兩份 [Brief: How to configure Red Hat Ceph Storage][1] 和 [Reference Architecture: Red Hat Ceph Storage hardware selection guide][2] 文件為基礎撰寫，現行Red Hat 官方發布的版本號來到 [v3.2][8]
 

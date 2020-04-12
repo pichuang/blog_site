@@ -6,6 +6,7 @@ tags:
 categories:
   - openshift
 date: 2019-05-12 00:03:00
+toc: true
 ---
 ![](/images/ocp.png)
 

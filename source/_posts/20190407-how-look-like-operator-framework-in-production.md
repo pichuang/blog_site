@@ -8,6 +8,7 @@ tags:
 categories:
   - openshift
 date: 2019-04-07 22:49:00
+toc: true
 ---
 打從 Red Hat 收購 CoreOS 後，底下的子專案也一併地納入紅帽的管理，其中 Operator Framework 也在其中。而很多朋友只聞 Operator Framework 聲響，不聞 Operator Framework 身影，今天透過此篇文章來介紹一下 Operator Framework 實際上對 Red Hat OpenShift 容器平台會有怎樣的玩法？
 

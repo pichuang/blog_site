@@ -10,6 +10,7 @@ tags:
 categories:
   - openshift
 date: 2019-04-06 13:57:00
+toc: true
 ---
 Oracle Blog 於 2019/3/11 釋放出一則文章 [WebLogic Server is now certified to run on OpenShift! - ORACLE][1]，是的，Oracle WebLogic 可以正式運行在 Kubernetes / OpenShift 上的平台了!
 

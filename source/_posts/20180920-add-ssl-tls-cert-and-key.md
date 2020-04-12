@@ -8,6 +8,7 @@ tags:
 categories:
   - linux
 date: 2018-11-20 14:13:00
+toc: true
 ---
 ## 動機
 大多數的時候服務都會架設在不用對開放到 Internet 上的地方去給外部使用者接觸，也就是所謂的 Intranet。那如果想要在 Intranet 建立自建簡單的 PKI (Public Key Infrastructure) 的話，該如何做呢?

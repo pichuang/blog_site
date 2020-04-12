@@ -8,6 +8,7 @@ tags:
 categories:
   - container
 date: 2019-11-23 00:39:00
+toc: true
 ---
 遇過非常多人使用 `docekr-distribution` 和 RHEL/CentOS 來建立人生第一個容器映像檔倉庫 (Container Registry) 時，都會遇到 SSL/TLS 相關的問題，大多都是用 [`insecure-registries`][1] 來避掉，今天要來分享自簽憑證的作法
 

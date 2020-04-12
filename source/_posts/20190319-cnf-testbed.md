@@ -7,6 +7,7 @@ categories:
   - openshift
 date: 2019-03-07 22:04:00
 udpated: 2019-03-07 22:04:12
+toc: true
 ---
 
 2019/2/24 CNCF [宣布發展 CNF Testbed][1]，計畫主要針對在 ONAP (Open Network Automation Platform) 上的 VNF (Virtual Network Function) 及發展中的 CNF (Cloud native Network Function) 進行雙方的功能測試，相互比較優劣勢及性能彈性
