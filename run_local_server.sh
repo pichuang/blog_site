@@ -1,2 +1,2 @@
 #!/bin/bash
-hexo clean && hexo g && hexo server -i 0.0.0.0 -l
+hexo clean && hexo g && hexo server -i 0.0.0.0 -l --debug
