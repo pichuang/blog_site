@@ -4,6 +4,7 @@ author: Phil Huang
 tags:
   - openshift4
   - container
+  - coreos
 categories:
   - openshift
 date: 2020-04-03 00:16:00

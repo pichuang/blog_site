@@ -5,6 +5,7 @@ author: Phil Huang
 tags:
   - openshift4
   - container
+  - coreos
 categories:
   - openshift
 date: 2020-04-12 21:59:29
@@ -12,13 +13,15 @@ udpated: 2020-04-12 21:59:29
 toc: true
 ---
 
-
 承襲愛的走馬看花系列的亂寫亂紀錄優良傳統，繼續記錄操作，有興趣想要看前面的文章可以參考這兩邊
 
 - [愛的走馬看花 Red Hat CoreOS 與 Red Hat OpenShift Part 1 - Phil Huang][1]
 - [愛的走馬看花 Red Hat CoreOS 與 Red Hat OpenShift Part 2 - Phil Huang][2]
 
-第三天要來操作的是 `實裝 Kubernetes NFS-Client Provisioner`、`升級 OpenShift 4.y.z`、`正確匯出 YAML 方式`
+第三天要來操作的是
+1. 實裝 Kubernetes NFS-Client Provisioner
+2. 升級 OpenShift 4.y.z
+3. 正確匯出 YAML 方式
 
 另外我依然沒梗圖，所以開場 Po 個影片 `Installing OpenShift to Red Hat Virtualization using full-stack automation`，現在 `libvirt` 體系平台也可以使用 `node scaling` 的能力了，影片三分鐘，OpenShift 4.4 之後就會開始支援了
 

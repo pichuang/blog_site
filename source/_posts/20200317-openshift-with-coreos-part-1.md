@@ -5,6 +5,7 @@ tags:
   - openshift4
   - openshift
   - container
+  - coreos
 categories:
   - openshift
 date: 2020-03-17 00:16:00

@@ -114,6 +114,18 @@ OpenShift Router 是採用 `hostnetwork` 的方式建立，所以每一台主機
 ### 使用 Service Type: `LoadBalancer`
 正常使用下，這功能僅限於公有雲，但在 OpenShift 裡面有支援一個功能叫做 `ingress IP`，效果就是給 OpenShift 僅一個特定的網段 (Subnet) 之後，可以從中選取任一 IP，並使用 `type: LoadBalancer` 對外揭露服務，詳細可以參考 [Using Ingress to Expose Services][9]
 
+
+### 使用 External IngressIP
+倘若一定要走 non-HTTP/HTTPS 的服務，又想要有類似於使用 `Service Type: LoadBalancer`，那可以考慮使用 IngressIP 來做使用，[Using Ingress to Expose Services][9]
+
+可以做成下面的效果
+
+```bash
+$ oc get svc -n openshift-ingress
+NAME                      TYPE           CLUSTER-IP      EXTERNAL-IP      PORT(S)                      AGE
+router-default            LoadBalancer   172.30.16.119   52.230.228.163   80:30745/TCP,443:32561/TCP   2d6h
+```
+
 ## Summary
 在 OpenShift 的環境之下
 
