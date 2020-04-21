@@ -273,6 +273,25 @@ NAME      VERSION   AVAILABLE   PROGRESSING   SINCE   STATUS
 version   4.3.9     True        False         49s     Cluster version is 4.3.9
 ```
 
+#### 獲得 OpenShift 4 版本升級路線圖
+
+建議找個可以開圖檔的筆電執行，
+
+```bash
+# Mac User
+# brew install graphviz jq
+
+# RHEL User
+$ yum install -y graphviz jq
+$ wget https://raw.githubusercontent.com/openshift/cincinnati/master/hack/graph.sh
+$ chmox +x graph.sh
+$ curl -sH 'Accept:application/json' 'https://api.openshift.com/api/upgrades_info/v1/graph?channel=stable-4.3' | ./graph.sh | dot -Tsvg > graph.svg
+```
+
+找個瀏覽器開啟 `graph.svg` 就看到當前 `stable-4.3` 的升級路線圖
+
+![](/images/ocp-upgrade-path.png)
+
 ### 正確匯出 YAML 方式
 
 上游 Kubernetes 將於 1.18 版本之後，要廢止 `--export` 的參數，建議直接使用 `-o, --output=''` 輸出對應的格式

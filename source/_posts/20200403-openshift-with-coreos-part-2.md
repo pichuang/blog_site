@@ -179,6 +179,19 @@ spec:
 3. serviceNetwork 也就是 Kubernetes Service 可以使用的 IP 為 172.30.0.0/16，共可以開啟 [`65534` 個 Service IP][6]
 4. hostPrefix 比較難理解，主要是代表`每一個節點 (Node) 所能拿到的 Pod IP 為多少`，例如這邊是 `/23`，所以每個節點可以運行 [`510` 個 Pod IP][9] 的 Pod，若改成 `/22`，則每個節點可運行約 `1000` 左右的 Pod。有些人會問夠不夠用，其實就預設 [OpenShift 4.3 - Recommended host practices][7] 上，一個節點的上限是跑 `kubeletConfig.maxPods: 250`，最高 250，所以撞不到天花板
 
+
+同一時間也可以透過 `oc get hostsubnet` 獲得每一個節點所使用到的網段
+
+```bash
+$ oc get hostsubnet
+NAME              HOST              HOST IP     SUBNET          EGRESS CIDRS   EGRESS IPS
+compute-0         compute-0         10.0.97.4   10.131.0.0/23
+compute-1         compute-1         10.0.97.5   10.128.2.0/23
+control-plane-0   control-plane-0   10.0.97.1   10.129.0.0/23
+control-plane-1   control-plane-1   10.0.97.2   10.128.0.0/23
+control-plane-2   control-plane-2   10.0.97.3   10.130.0.0/23
+```
+
 ## 結語
 
 我知道寫的蠻亂的，就當筆記邊研究邊紀錄
