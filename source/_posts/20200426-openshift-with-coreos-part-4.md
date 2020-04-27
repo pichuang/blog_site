@@ -6,13 +6,12 @@ toc: true
 tags:
   - openshift4
   - openshift
+  - helm
 categories:
   - openshift
 date: 2020-04-26 02:54:49
 udpated: 2020-04-26 02:54:49
 ---
-
-## 走馬看花之旅: 第四天
 
 承襲上篇 [愛的走馬看花 Red Hat CoreOS 與 Red Hat OpenShift Part 3][4] 精神，繼續寫一點東西，但因本週太忙了，只講一個大家都很關注的 Kubernetes 套件管理程式 - `Helm 3` 內容
 
@@ -20,6 +19,7 @@ udpated: 2020-04-26 02:54:49
 
 <!--more-->
 
+## 走馬看花之旅: 第四天
 ### 使用 Helm 3
 
 > The package manager for Kubernetes
