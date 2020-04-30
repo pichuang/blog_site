@@ -292,6 +292,8 @@ $ curl -sH 'Accept:application/json' 'https://api.openshift.com/api/upgrades_inf
 
 ![](/images/ocp-upgrade-path.png)
 
+最近發現有人釋出一個 OCP 4 Upgrade Path Checker 的工具
+
 ### 正確匯出 YAML 方式
 
 上游 Kubernetes 將於 1.18 版本之後，要廢止 `--export` 的參數，建議直接使用 `-o, --output=''` 輸出對應的格式

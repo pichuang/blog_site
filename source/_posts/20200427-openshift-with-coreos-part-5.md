@@ -4,14 +4,23 @@ title: 愛的走馬看花 Red Hat CoreOS 與 Red Hat OpenShift Part 5
 author: Phil Huang
 toc: true
 tags:
-  - null
+  - openshift4
+  - openshift
 categories:
-  - null
-date: 2020-04-28 01:14:15
-udpated: 2020-04-28 01:14:15
+  - openshift
+date: 2020-04-27 01:14:15
+udpated: 2020-04-27 01:14:15
 ---
 
-本日要來探討一下 OpenShift 4 內建的 RBAC (Role Based Access Control) 機制，
+如果有朋友剛弄好 OpenShift 4 可能對於很多預設機制感到有點狐疑，這篇文章就是要來解釋，安裝完 OpenShift 4 後，最重要的小事 - 帳號權限認證 (Authentication)
+
+Red Hat OpenShift 的權限認證一如繼往都是採用角色型存取控制 (Role Based Access Control, RBAC)，這邊就要來準備開始務實一點的操作，本文先從簡單的把預設帳號置換開始做起
+
+![](/images/rbac.png)
+
+> 圖片出處: 【最終幻想7：重製版】4K電影剪輯版(後篇) - 零收集、電影式運鏡、完整劇情 - PS4 Pro增強模式 - Final Fantasy VII: REMAKE - 太空戰士7- Semenix出品
+
+話說大家也可以多多支持一下 [Semenix Gaming][6] -  大大的影片，我的圖片都是截他的頻道，錄的影片相當有水準，最近都在看它的影片當作自己有在打太七 Q_Q
 
 <!--more-->
 
@@ -23,7 +32,7 @@ udpated: 2020-04-28 01:14:15
 - Username: `kubeadmin`
 - Password: `XXXX-XXXX-XXXX-XXXX`
 
-但因為預設帳號導致的資安議題，其實這個預設的 `kubeadmin` 不建議持續使用，建議是換成別的帳號替換它既有的角色 `cluster-admin`，詳請可參考 [Removing the kubeadmin user - OpenShift 4.3][2]
+但因為預設帳號導致的資安議題，這個預設的 `kubeadmin` 及 `XXXX-XXXX-XXXX-XXXX` 不建議持續使用，建議是換成別的帳號替換它既有的角色 `cluster-admin`，詳請可參考 [Removing the kubeadmin user - OpenShift 4.3][2]
 
 ### 準備 HTPasswd Identity Provider
 
@@ -64,7 +73,9 @@ $ oc describe oauth cluster
 $ oc get oauth cluster -o yaml > oauth.yaml
 ```
 
-### 設定新最高權限帳號 - ocproot
+### 設定新的最高權限帳號 - ocproot
+
+這邊對照過往 Linux 操作系統的習慣，我自行取名 `ocproot`，如果你想要取別的也可以，請自行修改沒問題
 
 1. 確保你有 `htpasswd` 可以使用
 
@@ -123,7 +134,7 @@ ocproot   3635b015-3664-4836-a5a0-2aff1100d99c               local_htpasswd_prov
 
 ![](/images/ocproot.png)
 
-#### 移除 `kubeadmin` 帳號 (Optional)
+#### 移除 `kubeadmin` 帳號
 
 根據 [Removing the kubeadmin user - OpenShift 4.3][2] 來移除預設帳號 `kubeadmin`，務必要記得，你的集群裡面一定要有
 
@@ -137,7 +148,47 @@ ocproot   3635b015-3664-4836-a5a0-2aff1100d99c               local_htpasswd_prov
 $ oc delete secrets kubeadmin -n kube-system
 ```
 
+#### 修改自動登出時間
 
+根據 [Configuring the internal OAuth server - OpenShift 4.3][5]，跟 OpenShift 3 一樣，都是要修改 `accessTokenMaxAgeSeconds` 值，預設時間應該是 `86400`，也就是 24 小時後登出，因為太長了，所以改為 `3600`，也就是登入 1 小時後自動登出
+
+```yaml oauth.yaml
+apiVersion: config.openshift.io/v1
+kind: OAuth
+metadata:
+  name: cluster
+spec:
+  identityProviders:
+  - name: local_htpasswd_provider
+    challenge: true
+    login: true
+    mappingMethod: claim
+    type: HTPasswd
+    htpasswd:
+      fileData:
+        name: local-htpasswd-secret
+  tokenConfig:
+    accessTokenMaxAgeSeconds: 3600
+```
+
+如同修改 OAuth ㄧ樣，執行下列操作即可
+
+```bash
+# Update OAuth CRD
+$ oc apply -f oauth.yaml
+oauth.config.openshift.io/cluster configured
+
+# Check
+$ oc describe oauth cluster
+```
+
+## 結語
+
+做完上面的步驟，只是剛剛好準備開始以正確且安全的姿勢操作 OpenShift 4，下一篇會提到更複雜的 Users/Groups/Projects 的 RBAC 控制操作
+
+對 我知道你的血條就跟下圖ㄧ樣
+
+![](/images/rbac-2.png)
 
 ## Appendix
 
@@ -147,7 +198,7 @@ $ oc login -u ocproot --insecure-skip-tls-verify=true
 error: x509: certificate signed by unknown authority
 ```
 
-這問題是因為自簽憑證，系統沒有安裝 ca 所以要特別拉出來安裝在系統或者是在你的電腦上
+這問題是因為預設是自簽憑證 (Self-Signed)，系統沒有安裝這張自簽的 CA ，所以要特別拉出來安裝在系統或者是在你的筆電上
 
 ```bash
 $ oc project openshift-authentication
@@ -187,8 +238,11 @@ system:admin
 - [Removing the kubeadmin user - OpenShift 4.3][2]
 - [OpenShift 4之设置用户/组对项目的访问权限][3]
 - [OpenShift 4 之增加管理员用户][4]
+- [Configuring the internal OAuth server - OpenShift 4.3][5]
 
 [1]: https://access.redhat.com/solutions/1519813
 [2]: https://docs.openshift.com/container-platform/4.3/authentication/remove-kubeadmin.html
 [3]: https://blog.csdn.net/weixin_43902588/article/details/103412127
 [4]: https://blog.csdn.net/weixin_43902588/article/details/103391438
+[5]: https://docs.openshift.com/container-platform/4.3/authentication/configuring-internal-oauth.html
+[6]: https://www.youtube.com/watch?v=4CS9KvnVFs0
