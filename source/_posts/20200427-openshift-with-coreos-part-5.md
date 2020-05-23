@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 愛的走馬看花 Red Hat CoreOS 與 Red Hat OpenShift Part 5
+title: 當安裝完 Red Hat OpenShift 之後...
 author: Phil Huang
 toc: true
 tags:

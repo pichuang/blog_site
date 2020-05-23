@@ -6,11 +6,11 @@ tags:
 date: 2019-02-23 23:23:30
 ---
 ## 2020 (Total: 8)
-* 20200512, 雲地端部署應用分享: OpenShift on AWS, [OpenShift on AWS 線上研討會](https://www.digitimes.com.tw/seminar/AWS_20200505), Taiwan
+* 20200612, How I do troubleshooting on container, more than docker?, [HKOSCon 2020](https://hkoscon.org/2020/topics/how-i-do-troubleshooting-container-more-docker), Hong Kong
 * 20200508, Red Hat vSummit 精華線上研討會. [Online Webinar](http://www.gwms.com.tw/redhat_20200508/), Taiwan
 * 20200428, [Cloud Native API Webniar](https://www.youtube.com/watch?v=qx6ZHlZf0fM), [Red Hat 線上講堂](https://www.digitimes.com.tw/edm/EDM_redhat_20200408.htm), Taiwan
-* 20200311, [【IBM 雲講堂】第四集：彈指搞定多雲管理](https://www.youtube.com/watch?v=y57XEQHYSJ8), Online Webinar, Taiwan
-* 20200225, [就是要跟你聊 Red Hat Ansible](https://www.digitimes.com.tw/edm/EDM_RedHat_20200225_Seminar.htm), Online Webinar, Taiwan
+* 20200311, [【IBM 雲講堂】第四集：彈指搞定多雲管理](https://www.youtube.com/watch?v=y57XEQHYSJ8), [Online Webinar](https://seminar.ithome.com.tw/live/2020class/index.html), Taiwan
+* 20200225, [就是要跟你聊 Red Hat Ansible](https://www.youtube.com/watch?v=QOMg9f6gFOs), [Online Webinar](https://www.digitimes.com.tw/edm/EDM_RedHat_20200225_Seminar.htm), Taiwan
 * 20200213, SQL Server 2019 攜手 Red Hat OpenShift Container Platform 強強聯手打造企業級混合雲, [SQL Server 2019 與開源容器Kubernetes實戰營](https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x8850296abcd), Taiwan
 * 20200212, Red Hat Ansible 自動化應用, Red Hat Ansible策略產品交流會, Taiwan
 * 20200109, SQL Server 2019 攜手 Red Hat OpenShift Container Platform 強強聯手打造企業級混合雲, [SQL Server 2019 與開源容器Kubernetes實戰營](https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x8850296abcd), Taiwan

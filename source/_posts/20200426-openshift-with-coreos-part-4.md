@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 愛的走馬看花 Red Hat CoreOS 與 Red Hat OpenShift Part 4
+title: Red Hat OpenShift 官方支援 Helm 3 啦!
 author: Phil Huang
 toc: true
 tags:
@@ -20,6 +20,12 @@ udpated: 2020-04-26 02:54:49
 <!--more-->
 
 ## 走馬看花之旅: 第四天
+### Helm 畢業啦!
+
+![](https://www.cncf.io/wp-content/uploads/2020/04/CNCF_Grad_Cards_Helm-1024x506.jpg)
+
+於 2020/04/30 時，[Cloud Native Computing Foundation Announces Helm Graduation][6]，Helm 從 CNCF 基金會畢業啦!它是 CNCF 第 10 個正式畢業的專案，因為它充分展現出使用者廣泛地採用、開放的專案治理以及對 CNCF 社區可持續性包容的堅定承諾
+
 ### 使用 Helm 3
 
 > The package manager for Kubernetes
@@ -249,6 +255,13 @@ project.project.openshift.io "test-my-first-helm-chart" deleted
 - Red Hat Enterprise Linux 7.7 as bastion server
 - helm v3.1+unreleased
 
+## Appendix
+
+### 延伸閱讀
+- [初探云原生应用管理（一）: Helm 与 App Hub][7]
+- [初探云原生应用管理（二）: 为什么你必须尽快转向 Helm v3][9]
+- [云原生生态周报 Vol. 19 | Helm 推荐用户转向 V3][8]
+
 ## 結語
 
 我覺得 Red Hat 官方開始支援是對的，剛好 Helm 3 後對底層進行了大改造，原先的資安問題除了移除 Tiller 以外，也同時透過 OpenShift 預設相較嚴苛 RBAC 來做到比較好的保護，算是一個各得其所的使用方式
@@ -259,9 +272,14 @@ project.project.openshift.io "test-my-first-helm-chart" deleted
 - [IBM/helm101 - GitHub][3]
 - [愛的走馬看花 Red Hat CoreOS 與 Red Hat OpenShift Part 3][4]
 - [helm][5]
+- [Cloud Native Computing Foundation Announces Helm Graduation][6]
 
 [1]: https://www.ithome.com.tw/news/134233
 [2]: https://github.com/helm/charts
 [3]: https://github.com/IBM/helm101
 [4]: https://blog.pichuang.com.tw/20200412-openshift-with-coreos-part-3/
 [5]: https://helm.sh/
+[6]: https://www.cncf.io/announcement/2020/04/30/cloud-native-computing-foundation-announces-helm-graduation/
+[7]: https://yq.aliyun.com/articles/708271
+[8]: https://yq.aliyun.com/articles/718231
+[9]: https://yq.aliyun.com/articles/709187

@@ -1,12 +1,13 @@
 ---
 layout: post
-title: 愛的走馬看花 Red Hat CoreOS 與 Red Hat OpenShift Part 6
+title: Red Hat OpenShift RBAC 最小權限實踐
 author: Phil Huang
 toc: true
 tags:
-  - null
+  - openshift4
+  - openshift
 categories:
-  - null
+  - openshift
 date: 2020-05-02 10:15:40
 udpated: 2020-05-02 10:15:40
 ---
