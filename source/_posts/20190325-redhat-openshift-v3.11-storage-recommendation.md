@@ -29,7 +29,7 @@ toc: true
 順序由高到低為: `Recommended > Configurable > Not Configurable`
 
 Storage Type | Single Registry | Scaled Registry | Metrics | Logging | Apps |
----|---|---|---|---|---|---|---|---|
+---|---|---|---|---|---
 Block|Configurable|Not Configurable|Recommended|Recommended|Recommended
 File|Configurable|Configurable|Configurable|Configurable|Recommended
 Object|Recommended|Recommended|Not Configurable|Not Configurable|Limited Recommended

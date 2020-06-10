@@ -5,8 +5,9 @@ tags:
   - speach
 date: 2019-02-23 23:23:30
 ---
-## 2020 (Total: 8)
-* 20200612, How I do troubleshooting on container, more than docker?, [HKOSCon 2020](https://hkoscon.org/2020/topics/how-i-do-troubleshooting-container-more-docker), Hong Kong
+## 2020 (Total: 9)
+* 20200612, [How I do troubleshooting on container, more than docker?](https://speakerdeck.com/pichuang/how-do-i-troubleshooting-on-container-more-than-docker), [HKOSCon 2020](https://hkoscon.org/2020/topics/how-i-do-troubleshooting-container-more-docker), Hong Kong
+* 20200526, Red Hat and Sysage Ansible 研討會, Online Webinar, Taiwan
 * 20200508, Red Hat vSummit 精華線上研討會. [Online Webinar](http://www.gwms.com.tw/redhat_20200508/), Taiwan
 * 20200428, [Cloud Native API Webniar](https://www.youtube.com/watch?v=qx6ZHlZf0fM), [Red Hat 線上講堂](https://www.digitimes.com.tw/edm/EDM_redhat_20200408.htm), Taiwan
 * 20200311, [【IBM 雲講堂】第四集：彈指搞定多雲管理](https://www.youtube.com/watch?v=y57XEQHYSJ8), [Online Webinar](https://seminar.ithome.com.tw/live/2020class/index.html), Taiwan
