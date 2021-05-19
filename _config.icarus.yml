@@ -1,0 +1,124 @@
+version: 4.0.0
+variant: default
+logo: /img/logo.jpg
+head:
+    favicon: /img/logo.jpg
+    open_graph:
+        title: 
+        type: blog
+        url: 
+        image: 
+        site_name: 
+        author: 
+        description: 
+        twitter_card: 
+        twitter_id: 
+        twitter_site: 
+        google_plus: 
+        fb_admins: 
+        fb_app_id: 
+    structured_data:
+        title: 
+        description: 
+        url: 
+        author: 
+        image: 
+    meta:
+        - ''
+    rss: /atom.xml
+navbar:
+    menu:
+        Home: /
+        Archives: /archives
+        Categories: /categories
+        Tags: /tags
+        Record: /record
+        About: /about
+        Donate: /donate
+    links:
+        Phil GitHub:
+            icon: fab fa-github
+            url: 'https://github.com/pichuang/'
+footer:
+    links:
+        Creative Commons:
+            icon: fab fa-creative-commons
+            url: 'https://creativecommons.org/'
+        Attribution 4.0 International:
+            icon: fab fa-creative-commons-by
+            url: 'https://creativecommons.org/licenses/by/4.0/'
+        Non Commercial:
+            icon: fab fa-creative-commons-share
+            url: 'http://creativecommons.org/licenses/by-nc-sa/3.0/tw/'
+article:
+    highlight:
+        theme: github
+        clipboard: true
+        fold: unfolded
+    readtime: true
+search:
+    type: insight
+comment:
+    type: disqus
+    shortname: pichuang-tw
+sidebar:
+    left:
+        sticky: false
+    right:
+        sticky: false
+widgets:
+    -
+        position: left
+        type: profile
+        author: Phil Huang
+        author_title: Red Hat Taiwan Solution Architect
+        location: 'Taipei, Taiwan'
+        avatar: 
+        avatar_rounded: false
+        gravatar: pichuang@pichuang.com.tw
+        follow_link: 'http://fb.me/paulintoro'
+        social_links:
+            Github:
+                icon: fab fa-github
+                url: 'https://github.com/pichuang'
+            Facebook:
+                icon: fab fa-facebook
+                url: 'https://facebook.com/paulintoro'
+            Twitter:
+                icon: fab fa-twitter
+                url: 'https://twitter.com/pichuang_tw'
+            SpeakerDeck:
+                icon: fab fa-speaker-deck
+                url: 'https://speakerdeck.com/pichuang'
+            RSS:
+                icon: fas fa-rss
+                url: /atom.xml
+    -
+        position: left
+        type: toc
+    -
+        position: left
+        type: categories
+    -
+        position: left
+        type: recent_posts
+    -
+        position: left
+        type: archives
+    -
+        position: left
+        type: tags
+plugins:
+    animejs: true
+    back_to_top: true
+    gallery: true
+    google_analytics:
+        tracking_id: UA-90856047-1
+    katex: false
+    mathjax: false
+    outdated_browser: false
+    progressbar: true
+providers:
+    cdn: jsdelivr
+    fontcdn: google
+    iconcdn: fontawesome

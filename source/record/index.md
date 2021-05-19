@@ -5,7 +5,17 @@ tags:
   - speach
 date: 2019-02-23 23:23:30
 ---
-## 2020 (Total: 9)
+## 2020 (Total: 19)
+* 20201216, F5 Networks & RedHat 聯合線上虛擬研討會, Online Webinar, Taiwan
+* 20201212, [一言難盡的關係：Kubernetes 和 Docker 之線上討論分享會](https://www.youtube.com/watch?v=nc3mBN3LzvM), Online Webinar, Taiwan
+* 20201205, 《科技、轉變與可能 系列講座》從軟體架構到解決方案，[探索下一代智慧工廠, 台灣軟體工程學會](https://www.seat.org.tw/event/transit_series_1), Taiwan
+* 20201111, [我的 Kubernetes 怪怪ㄉ](https://speakerdeck.com/pichuang/20201111-wo-de-kubernetes-guai-guai-de), [GDG Taipei](https://www.facebook.com/GDG.Taipei/posts/10158197797029915), Taiwan
+* 20201029, 打造未來 - 針對混合雲時代打造的紅帽最新版 RHEL, [HPE Superdome 領世顛峰 - 線上直播發表會](https://www.hpe.accessus.biz/20201029/edm_webinar.html), Taiwan
+* 20201024, Podman 技術提升大法, [2020 中國開源年會 COScon '20 - 云原生与微服务专场](https://mp.weixin.qq.com/s/VIr5GP4GEOqP9RuSCzLAbg), China
+* 20201014, Red Hat OpenShift 保護雲端原生服務的四大安全模型, [Palo Alto Networks Virtual CyberSummit](https://register.paloaltonetworks.com/virtualcyberweek-taiwan), Taiwan
+* 20200908, 打造跨國數位服務供應鏈，提升智慧工廠生產效率, [DForum 智慧工廠論壇](https://www.digitimes.com.tw/seminar/DForum_20200908/), Taiwan
+* 20200901, 使用 Ansible 自動化 Tibero 資料庫部署與維運, Online Webinar, Taiwan
+* 20200730, NetApp & Red Hat 高彈性容器式儲存線上論壇, [DigiTime Online Webinar](https://www.digitimes.com.tw/edm/EDM_NetApp_20200730_seminar.htm), Taiwan
 * 20200612, [How I do troubleshooting on container, more than docker?](https://speakerdeck.com/pichuang/how-do-i-troubleshooting-on-container-more-than-docker), [HKOSCon 2020](https://hkoscon.org/2020/topics/how-i-do-troubleshooting-container-more-docker), Hong Kong
 * 20200526, Red Hat and Sysage Ansible 研討會, Online Webinar, Taiwan
 * 20200508, Red Hat vSummit 精華線上研討會. [Online Webinar](http://www.gwms.com.tw/redhat_20200508/), Taiwan
