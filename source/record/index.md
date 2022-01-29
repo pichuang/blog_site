@@ -5,6 +5,22 @@ tags:
   - speach
 date: 2019-02-23 23:23:30
 ---
+## 2022 (Total: 2)
+* 20220121, [NVIDIA x VMware 釋放 AI 潛力](https://youtu.be/e0GiV-zJJOw), Online Webinar, Taiwan
+* 20220119, [彈指之間管理 AI MLOps 平台維運管理](https://www.youtube.com/watch?v=PI_04asntJo), Online Webinar, Taiwan
+
+## 2021 (Total: 10)
+* 20211222, VMware Tanzu 體驗工作坊, iThome Kubernetes Summit 2021, Taiwan
+* 20211208, VMworld 2021 精華篇, VMware 週三線上講堂, Taiwan
+* 20211124, [雲原生人才?看得到, 找不到 Part 2](https://speakerdeck.com/pichuang/20211124-yun-yuan-sheng-ren-cai-xun-zhao-de-nan-chu-ji-chang-jian-wu-qu-tan-tao-part-2), [Agile HsinChu](https://agilecommtw.kktix.cc/events/cloudtalentpart2), Taiwan
+* 20211123, [Kubernetes 多叢集及單叢集架構選擇探討](https://speakerdeck.com/pichuang/20211122-kubernetes-duo-cong-ji-ji-dan-cong-ji-jia-gou-xuan-ze-tan-tao), SDN x Cloud Native Meetup #42, Taiwan
+* 20211110, [VMware Tanzu 助陣練就跨雲管理 K8s 的即戰力](https://www.youtube.com/watch?v=C1SJLw0e5gw), [VMware 週三線上講堂](https://event.ithome.com.tw/live/vm211110/index.html), Taiwan
+* 20211020, [HiExpert 2021 DevOps領航者論壇](https://hiskio.com/events/devops-expert/), HiSKIO, Taiwan
+* 20210825, [雲原生人才?看得到, 找不到](https://speakerdeck.com/pichuang/20210824-yun-yuan-sheng-ren-cai-xun-zhao-de-nan-chu-ji-chang-jian-wu-qu-tan-tao), SDN x Cloud Native Meetup #39, Taiwan
+* 20210812, [如何採用雲原生作法 Velero 備份還原你的 Kubernetes 叢集?](https://speakerdeck.com/pichuang/20210812-ru-he-cai-yong-yun-yuan-sheng-zuo-fa-velero-bei-fen-huan-yuan-ni-de-kubernetes-cong-ji), [DevDays Asia 2021 Online](https://event.ithome.com.tw/live/devdays/sessions.html?v=1626777334), Taiwan
+* 20210623, [Azure Red Hat OpenShift 協助企業加速創新](https://s.itho.me/ccms_slides/2021/6/23/2ce03713-1df7-4ed5-a960-8c322df37561.pdf), ITHome 數位轉型攻略 - IT 即戰力 Online Webinar, Taiwan
+* 20210616, F5 + Red Hat 解碼雲原生容器時代的 IT 挑戰 - 安全、擴展、自動化, ITHome 數位轉型攻略 - IT 即戰力 Online Webinar, Taiwan
+
 ## 2020 (Total: 19)
 * 20201216, F5 Networks & RedHat 聯合線上虛擬研討會, Online Webinar, Taiwan
 * 20201212, [一言難盡的關係：Kubernetes 和 Docker 之線上討論分享會](https://www.youtube.com/watch?v=nc3mBN3LzvM), Online Webinar, Taiwan

@@ -71,7 +71,7 @@ widgets:
         position: left
         type: profile
         author: Phil Huang
-        author_title: Red Hat Taiwan Solution Architect
+        author_title: VMware Systems Engineer
         location: 'Taipei, Taiwan'
         avatar: 
         avatar_rounded: false
